@@ -3,7 +3,7 @@ Asian Glossy Starling,Aplonis panayensis,6,De La Salle University - Laguna campu
 Stripe-sided Rhabdornis,Rhabdornis mystacalis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-01,6:16:00,109,1.615
 Oriental Pratincole,Glareola maldivarum,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2026-05-01,7:30:00,38,1.635
 Brown Shrike,Lanius cristatus,1,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2023-04-06,15:40:00,85,4.5
-Eurasian Tree Sparrow,Passer montanus,46,So Many Birds Place,14.21012,121.0704352,2024-05-11,11:43:00,,
+Zebra Dove,Geopelia striata,X,"Laguna Boulevard, Santa Rosa, Calabarzon, PH (14,248, 121,066)",14.2476565,121.0662872,2024-11-27,6:29:00,61,1.579
 Gray-streaked Flycatcher,Muscicapa griseisticta,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-10-26,6:26:00,123,1.17
 Zitting Cisticola,Cisticola juncidis,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-17,5:50:00,160,0.35
 Thick-billed Flowerpecker,Pachyglossa agilis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-07-31,15:40:00,105,0.85
@@ -12,10 +12,10 @@ Asian Glossy Starling,Aplonis panayensis,40,"Lopez Ave., Los Baños,",14.1723983
 Yellow-vented Bulbul,Pycnonotus goiavier,1,"Lawaan Sa Kalayaan, Lumban, Calabarzon, PH (14.309, 121.519)",14.3086811,121.5190189,2026-04-11,11:36:00,407,0.452
 Yellow-wattled Bulbul,Microtarsus urostictus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-02,5:42:00,81,0.068
 Blue-tailed Bee-eater,Merops philippinus,2,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2026-01-20,17:06:00,64,3
-Collared Kingfisher,Todiramphus chloris,1,"Los Baños, Calabarzon, PH (14.174, 121.242)",14.1735628,121.2422659,2024-02-26,10:24:00,,
+Brahminy Kite,Haliastur indus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-04,5:50:00,112,2.01
 Purple-throated Sunbird,Leptocoma sperata,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2025-02-10,8:10:00,120,2
 Little Curlew,Numenius minutus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,16:21:00,107,0.473
-Pacific Swallow,Hirundo javanica,2,LA View Mountain Resort,14.5492647,121.4839379,2023-02-17,14:00:00,,
+Great Egret,Ardea alba,150,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-03-26,6:00:00,150,0.45
 Balicassiao,Dicrurus balicassius,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-08-26,6:00:00,150,10
 Philippine Bulbul,Hypsipetes philippinus,4,La View,14.548299,121.483035,2024-12-07,15:15:00,68,0.278
 Pacific Swift,Apus pacificus,X,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-05-03,17:00:00,90,2
@@ -37,7 +37,7 @@ Little Heron,Butorides atricapilla,2,"San Isidro River, Brgy. San Roque, San Ped
 Eastern Cattle-Egret,Ardea coromanda,6,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-15,5:39:00,85,0.3
 Zitting Cisticola,Cisticola juncidis,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-07-15,7:30:00,90,
 Yellow-vented Bulbul,Pycnonotus goiavier,2,"Rizal Re-Creation Center, Rizal",14.1117297,121.3965172,2023-11-01,15:40:00,10,0.5
-Coppersmith Barbet,Psilopogon haemacephalus,1,ISH,14.166072,121.237755,2025-10-26,0:00:00,,
+Garden Sunbird,Cinnyris jugularis,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2025-12-31,12:05:00,80,
 Asian Glossy Starling,Aplonis panayensis,1,"Biñan - Santa Rosa Access Road, Santa Rosa City PH-Calabarzon 14.31021, 121.09408",14.310214,121.094081,2026-08-23,6:41:00,73,0.143
 Eastern Red-rumped Swallow,Cecropis daurica,1,Jose R. Velasco Avenue,14.1589017,121.225865,2024-10-19,7:45:00,94,1.76
 Pied Triller,Lalage nigra,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-11-10,5:45:00,70,3
@@ -55,7 +55,7 @@ Gray Wagtail,Motacilla cinerea,1,"San Pedro lakeside, Brgy. San Roque",14.366829
 Common Greenshank,Tringa nebularia,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-12,6:03:00,111,0.562
 Pacific Swallow,Hirundo javanica,1,University grounds and  Botanical Garden.,14.1578742,121.2267471,2025-12-12,6:20:00,369,14.418
 Eastern Red-rumped Swallow,Cecropis daurica,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-04-05,16:40:00,73,
-Brown-breasted Kingfisher,Halcyon gularis,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-08-29,7:30:00,,
+White-breasted Woodswallow,Artamus leucorynchus,1,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-09-22,15:21:00,32,1.36
 Brown Shrike,Lanius cristatus,1,"Pinagbayanan, Pila",14.2455618,121.3520193,2026-03-18,6:35:00,50,2.1
 Bar-bellied Cuckooshrike,Coracina striata,4,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-03-31,7:17:00,120,5
 Blue-tailed Bee-eater,Merops philippinus,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-06-05,6:00:00,75,0.8
@@ -65,7 +65,7 @@ Red-crested Malkoha,Dasylophus superciliosus,12,"IRRI Staff Housing, Los Baños"
 Philippine Pied-Fantail,Rhipidura nigritorquis,4,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-06-04,6:00:00,60,0.4
 Philippine Nightjar,Caprimulgus manillensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-09-20,9:10:00,90,2.2
 Luzon Hornbill,Penelopides manillae,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-02-16,10:00:00,104,0.2
-Luzon Hornbill,Penelopides manillae,1,UP Los Baños--Campus,14.16739,121.2432396,2026-02-11,,,
+Blue-tailed Bee-eater,Merops philippinus,1,San Pedro Memorial Park,14.3568652,121.0354543,2025-10-31,15:35:00,30,
 Rock Pigeon,Columba livia,6,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-04-21,14:36:00,153,3.93
 Eurasian Tree Sparrow,Passer montanus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-27,7:22:00,107,0.47
 lovebird sp.,Agapornis sp.,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-15,6:15:00,135,0.8
@@ -77,7 +77,7 @@ Coppersmith Barbet,Psilopogon haemacephalus,1,Mt. Makiling Forest Reserve--TREES
 Collared Kingfisher,Todiramphus chloris,1,Fedco,14.2197671,121.0899205,2024-03-06,6:45:00,120,2
 Crested Myna,Acridotheres cristatellus,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-07-05,16:46:00,57,1.915
 Gray Wagtail,Motacilla cinerea,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-12-07,6:30:00,120,4
-Coppersmith Barbet,Psilopogon haemacephalus,1,"Cordon Riverside, Liliw, Calabarzon, PH",14.1524879,121.4458162,2023-05-12,7:00:00,,
+Philippine Coucal,Centropus viridis,1,UP Los Baños--Campus,14.16739,121.2432396,2026-01-27,12:24:00,40,2
 Spotted Kingfisher,Actenoides lindsayi,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-04-16,5:29:00,158,3.506
 Clamorous Reed Warbler,Acrocephalus stentoreus,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-14,6:25:00,115,0.8
 Stripe-sided Rhabdornis,Rhabdornis mystacalis,2,UP Los Baños--College Country Club,14.1619964,121.2382092,2025-04-04,6:38:00,3,0.187
@@ -85,7 +85,7 @@ Yellow-vented Bulbul,Pycnonotus goiavier,2,"IRRI Staff Housing, Los Baños",14.1
 Eurasian Tree Sparrow,Passer montanus,2,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-06-03,17:45:00,15,
 Golden-bellied Gerygone,Gerygone sulphurea,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-08-04,14:00:00,30,
 Guaiabero,Bolbopsittacus lunulatus,2,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2023-02-21,7:45:00,180,6
-Eastern Cattle-Egret,Ardea coromanda,1,"Biñan River, Carmona Interchange, SLEX, Carmona, Cavite",14.3020828,121.079039,2023-01-28,7:01:00,,
+Philippine Jungle Crow,Corvus philippinus,6,"Ilaya, San Pablo City",14.0742684,121.3262916,2025-01-29,9:15:00,20,
 Little Egret,Egretta garzetta,80,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-02-27,6:02:00,95,
 Brahminy Kite,Haliastur indus,1,UP Los Baños-CTTE,14.1510938,121.258175,2026-03-11,15:33:00,156,1.849
 Garden Sunbird,Cinnyris jugularis,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-12-30,16:20:00,90,
@@ -170,7 +170,7 @@ Oriental Honey-buzzard,Pernis ptilorhynchus,1,"IRRI Staff Housing, Los Baños",1
 Red-keeled Flowerpecker,Dicaeum australe,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-20,6:14:00,217,1.6
 Gray-faced Buzzard,Butastur indicus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-11-02,11:00:00,90,2
 Golden-bellied Gerygone,Gerygone sulphurea,1,"Calle Pogi, San Pedro, Laguna",14.3696977,121.0692681,2025-01-11,6:40:00,20,0.6
-Yellow-vented Bulbul,Pycnonotus goiavier,1,"Kamayan sa Palaisdaan sa Bay, Bay PH-Laguna 14.17775, 121.29643",14.177747,121.296427,2024-11-30,13:38:00,,
+Eurasian Moorhen,Gallinula chloropus,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-10-20,5:53:00,100,0.2
 Red-keeled Flowerpecker,Dicaeum australe,2,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-10-06,8:02:00,360,5
 Wood Sandpiper,Tringa glareola,4,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-03-01,6:06:00,75,0.3
 Tawny Grassbird,Cincloramphus timoriensis,1,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-07-28,16:09:00,97,0.657
@@ -185,7 +185,7 @@ White-browed Crake,Poliolimnas cinereus,2,"IPB Rd. ricefields, Bgy. San Vicente,
 White-breasted Woodswallow,Artamus leucorynchus,1,"24 Intan, Los Baños, Calabarzon, PH (14.171, 121.245)",14.1712658,121.245296,2024-07-20,8:44:00,22,
 Yellow-vented Bulbul,Pycnonotus goiavier,1,Molawin Creek Bridge - AP Aglibut Ave,14.1618985,121.2443053,2025-07-02,16:30:00,45,
 Oriental Pratincole,Glareola maldivarum,5,UP Los Baños--DTRI,14.1568936,121.2461495,2023-03-09,15:48:00,178,10.317
-Rock Pigeon,Columba livia,3,"393 C-6, Taguig, Metro Manila, PH (14.491, 121.064)",14.4905557,121.0637539,2025-04-27,15:35:00,,
+Striated Grassbird,Megalurus palustris,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-28,6:07:00,110,0.634
 Philippine Bulbul,Hypsipetes philippinus,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2023-05-13,6:04:00,260,3.474
 Eastern Cattle-Egret,Ardea coromanda,15,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-01-18,15:01:00,41,0.649
 Striated Grassbird,Megalurus palustris,2,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2024-10-03,6:30:00,30,0.09
@@ -218,7 +218,7 @@ Luzon Hornbill,Penelopides manillae,1,"Makiling Botanic Garden, Los Baños",14.1
 Yellow-vented Bulbul,Pycnonotus goiavier,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-03-06,6:03:00,100,0.4
 Yellow-vented Bulbul,Pycnonotus goiavier,2,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-06-06,7:10:00,60,
 Yellow-vented Bulbul,Pycnonotus goiavier,2,"Ilaya, San Pablo City",14.0742684,121.3262916,2025-01-29,9:15:00,20,
-Yellow-vented Bulbul,Pycnonotus goiavier,X,Word Of Life Bible Institute - Philippines,14.10616,121.2728932,2026-03-11,16:35:00,,
+Eurasian Tree Sparrow,Passer montanus,5,Fedco,14.2197671,121.0899205,2024-03-06,6:45:00,120,2
 Eastern Cattle-Egret,Ardea coromanda,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,16:21:00,107,0.473
 Scaly-breasted Munia,Lonchura punctulata,20,UP Los Baños--DTRI,14.1568936,121.2461495,2025-02-15,8:14:00,59,1.2
 Gray-rumped Swiftlet,Collocalia marginata,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-04-23,7:00:00,45,2
@@ -238,7 +238,7 @@ House Swift,Apus nipalensis,9,"University of the Philippines Los Baños, Los Ba�
 Common Kingfisher,Alcedo atthis,2,Birding 2024,14.2089746,121.0709358,2026-02-08,15:24:00,22,1.053
 Striated Grassbird,Megalurus palustris,5,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-05-24,5:15:00,110,3.5
 Philippine Jungle Crow,Corvus philippinus,2,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2024-03-30,6:30:00,390,6.8
-Red Junglefowl,Gallus gallus,4,"10166 Banawe Street, Los Baños, Calabarzon, PH (14.168, 121.238)",14.1682195,121.2384912,2026-06-07,14:52:00,,
+Luzon Bleeding-heart,Gallicolumba luzonica,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-06-25,6:02:00,308,7.343
 flowerpecker sp.,Dicaeidae sp.,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-06-11,4:29:00,454,1.953
 Wood Sandpiper,Tringa glareola,X,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-08-18,18:00:00,33,3.249
 Nankeen Night Heron,Nycticorax caledonicus,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-03-20,17:15:00,90,2
@@ -256,7 +256,7 @@ Black-naped Oriole,Oriolus chinensis,2,"Laguna Boulevard, Santa Rosa, Calabarzon
 Great Egret,Ardea alba,16,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-01-06,6:25:00,100,0.35
 Brown Shrike,Lanius cristatus,1,"Lake Caliraya, Lumban",14.2986121,121.5062784,2023-01-14,6:10:00,120,
 Blue-tailed Bee-eater,Merops philippinus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-07,6:36:00,72,0.79
-Coppersmith Barbet,Psilopogon haemacephalus,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2026-07-24,7:13:00,,
+Black-crowned Night Heron,Nycticorax nycticorax,2,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-10-16,15:15:00,30,3
 Lowland White-eye,Zosterops meyeni,4,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-03-21,6:30:00,90,2.7
 White-browed Crake,Poliolimnas cinereus,4,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2023-01-22,7:45:00,30,
 Crested Myna,Acridotheres cristatellus,2,"Caliraya-Cavinti Arterial Road, Cavinti PH-Laguna 14.28537, 121.51006",14.285375,121.510061,2023-07-04,7:09:00,222,2.19
@@ -269,7 +269,7 @@ Scaly-breasted Munia,Lonchura punctulata,15,"Valentino G. Argañosa, Los Baños 
 Barred Rail,Gallirallus torquatus,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-20,5:35:00,120,1.5
 Spotted Dove,Spilopelia chinensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-01-29,15:57:00,105,0.98
 Eastern Red-rumped Swallow,Cecropis daurica,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-03-04,6:56:00,53,1.661
-Besra,Tachyspiza virgata,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
+Little Egret,Egretta garzetta,3,Merhenrics Apartments,14.1725741,121.2430824,2024-04-15,15:00:00,210,
 Philippine Jungle Crow,Corvus philippinus,5,UP Los Baños--EDC Binhi Biodiversity Park,14.1545235,121.2367729,2024-07-21,5:55:00,27,1.174
 Gray-faced Buzzard,Butastur indicus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-13,16:26:00,84,3
 Philippine Pied-Fantail,Rhipidura nigritorquis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-05,17:00:00,94,0.681
@@ -278,7 +278,7 @@ Red Collared-Dove,Streptopelia tranquebarica,1,"Pandan Place, Biñan City PH-Lag
 Brown-breasted Kingfisher,Halcyon gularis,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-11-12,12:59:00,265,4.614
 Brown-breasted Kingfisher,Halcyon gularis,1,Santa Elena Golf Club,14.2444196,121.1071289,2024-01-29,6:42:00,290,17.27
 White-breasted Waterhen,Amaurornis phoenicurus,1,"Laguna Boulevard, Santa Rosa, Calabarzon, PH (14,248, 121,066)",14.2476565,121.0662872,2024-11-28,6:09:00,70,1.717
-Philippine Jungle Crow,Corvus philippinus,1,So Many Birds Place,14.21012,121.0704352,2024-05-09,17:04:00,,
+Spotted Kingfisher,Actenoides lindsayi,2,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-06-11,8:00:00,360,3
 Luzon Hornbill,Penelopides manillae,X,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-11-13,6:23:00,60,2.42
 Philippine Cuckoo-Dove,Macropygia tenuirostris,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
 Philippine Jungle Crow,Corvus philippinus,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-05-23,12:18:00,82,2.993
@@ -299,11 +299,11 @@ Eurasian Tree Sparrow,Passer montanus,12,UP Los Baños--Pili Drive,14.1606967,12
 Chestnut Munia,Lonchura atricapilla,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-04-16,5:29:00,157,3.51
 heron sp.,Ardeidae sp.,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-10-15,6:05:00,65,
 Red-crested Malkoha,Dasylophus superciliosus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-12,5:58:00,142,3.04
-Yellow-vented Bulbul,Pycnonotus goiavier,4,La View,14.5484657,121.4830957,2023-07-21,6:58:00,,
+Wood Sandpiper,Tringa glareola,2,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-08-31,7:22:00,19,1.106
 Spotted Dove,Spilopelia chinensis,1,"Rizal Road, Cabuyao",14.2443498,121.1504325,2025-12-20,7:30:00,15,0.08
 White-breasted Woodswallow,Artamus leucorynchus,3,Don Juakeen Lakeside Village,14.1043655,121.384589,2025-01-27,5:30:00,145,0.7
 Eurasian Moorhen,Gallinula chloropus,1,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2023-04-16,10:13:00,54,1.172
-White-breasted Woodswallow,Artamus leucorynchus,1,UP Los Baños--DTRI,14.1568936,121.2461495,2024-11-30,15:55:00,,
+Blue-headed Fantail,Rhipidura cyaniceps,5,"Casa Angelina Santa Maria, Calabarzon, PH (14.53, 121.479)",14.5297515,121.4789076,2024-06-20,7:35:00,224,16.946
 Gray Wagtail,Motacilla cinerea,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2025-04-05,7:26:00,122,1.024
 Yellow-vented Bulbul,Pycnonotus goiavier,5,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-07-01,5:40:00,90,2
 Yellow-vented Bulbul,Pycnonotus goiavier,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-08-10,15:57:00,130,4.649
@@ -323,7 +323,7 @@ Barred Rail,Gallirallus torquatus,1,UP Los Baños-CTTE,14.1510938,121.258175,202
 Besra,Tachyspiza virgata,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-04-16,5:29:00,157,3.51
 Yellow-wattled Bulbul,Microtarsus urostictus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-04-02,15:32:00,94,0.691
 Philippine Jungle Crow,Corvus philippinus,2,"Waterton Lake, Calamba, Calabarzon,",14.2099401,121.0704848,2025-03-14,12:47:00,14,5.529
-Spotted Kingfisher,Actenoides lindsayi,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-11-06,6:48:00,,
+Philippine Serpent-Eagle,Spilornis holospilus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-02-01,6:30:00,660,5
 Blue-tailed Bee-eater,Merops philippinus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-04-08,6:11:00,33,0.432
 Gray Heron,Ardea cinerea,3,"Lake Caliraya, Lumban",14.2986121,121.5062784,2023-01-14,6:10:00,120,
 Philippine Drongo-Cuckoo,Surniculus velutinus,3,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-10-02,6:22:00,233,2.5
@@ -353,7 +353,7 @@ Striated Grassbird,Megalurus palustris,1,"Wawa Road, Paete PH-Laguna 14.36361, 1
 Balicassiao,Dicrurus balicassius,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-28,6:27:00,136,1.91
 Little Heron,Butorides atricapilla,2,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-10-16,15:15:00,30,3
 Red-keeled Flowerpecker,Dicaeum australe,5,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2023-05-29,5:59:00,247,9.503
-Ashy Minivet,Pericrocotus divaricatus,2,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-10-06,5:33:00,,
+Gray-rumped Swiftlet,Collocalia marginata,X,"Evoliving Center Drive, Santa Rosa, Calabarzon, PH (14,235, 121,06)",14.2346985,121.0601637,2024-12-01,7:38:00,89,7.08
 Philippine Hanging-Parrot,Loriculus philippensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-10,6:03:00,74,0.77
 Chinese Sparrowhawk,Tachyspiza soloensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-30,5:57:00,199,0.907
 Chestnut Munia,Lonchura atricapilla,4,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-08-04,9:16:00,70,
@@ -413,16 +413,16 @@ White-breasted Waterhen,Amaurornis phoenicurus,1,"Rain Garden Evozone, brgy. Don
 Philippine Magpie-Robin,Copsychus mindanensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-21,6:41:00,115,1.251
 Gray-streaked Flycatcher,Muscicapa griseisticta,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-09-20,6:49:00,138,3.17
 Yellow-vented Bulbul,Pycnonotus goiavier,5,"UPLB Gate-Pili Drive, Los Baños,",14.161502,121.246613,2025-12-20,8:10:00,150,1.63
-Crested Myna,Acridotheres cristatellus,1,"Maharlika Highway, San Pablo City PH-Laguna 14.06826, 121.31453",14.068257,121.314531,2023-12-14,15:13:00,,
+Blue-tailed Bee-eater,Merops philippinus,2,"Biñan - Santa Rosa Access Road, Santa Rosa City PH-Calabarzon 14.31021, 121.09408",14.310214,121.094081,2026-08-23,6:41:00,73,0.143
 Purple Heron,Ardea purpurea,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-04,5:47:00,150,0.8
-Wandering Whistling-Duck,Dendrocygna arcuata,X,"Residence, SP, Laguna",14.3674354,121.0605651,2023-02-13,4:55:00,,
+Plain Bush-hen,Amaurornis olivacea,4,UP Los Baños--DTRI,14.1568936,121.2461495,2023-08-21,5:32:00,345,4.523
 Golden-headed Cisticola,Cisticola exilis,2,FMDS-UPOU Perma G.A.R.D.E.N.,14.1737475,121.2618842,2023-10-25,7:30:00,150,2
 Little Egret,Egretta garzetta,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-11-01,16:08:00,58,0.315
-Oriental Honey-buzzard,Pernis ptilorhynchus,2,La View Restaurant,14.549473,121.484082,2025-01-27,12:44:00,,
+Eurasian Moorhen,Gallinula chloropus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-02-24,5:59:00,93,0.568
 Yellow-vented Bulbul,Pycnonotus goiavier,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-04-11,6:02:00,183,4.024
 Brown Shrike,Lanius cristatus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-05,6:29:00,45,0.45
 Blue-tailed Bee-eater,Merops philippinus,1,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-04-27,6:32:00,72,2.68
-Asian Palm Swift,Cypsiurus balasiensis,2,"Santa Maria Diversion Road, Mabitac PH-Laguna 14.44759, 121.42647",14.447586,121.426467,2026-03-02,15:23:00,,
+White-breasted Woodswallow,Artamus leucorynchus,3,UP Los Baños-CTTE,14.1510938,121.258175,2023-05-29,10:26:00,53,7.869
 Crested Myna,Acridotheres cristatellus,2,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-03,16:00:00,127,4.207
 Brown Shrike,Lanius cristatus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-02-18,7:30:00,180,4
 Little Egret,Egretta garzetta,2,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-07-28,5:51:00,29,0.66
@@ -458,7 +458,7 @@ Rock Pigeon,Columba livia,8,"San Pedro lakeside, Brgy. San Roque",14.3668293,121
 Yellow-vented Bulbul,Pycnonotus goiavier,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-07,6:36:00,72,0.79
 Philippine Hanging-Parrot,Loriculus philippensis,1,UP Los Baños--College Country Club,14.1619964,121.2382092,2025-09-04,6:50:00,194,4.246
 Black Bittern,Botaurus flavicollis,1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-30,5:54:00,81,0.457
-Eastern Cattle-Egret,Ardea coromanda,10,"Santa Maria Diversion Road, Santa Maria PH-Laguna (14.4600,121.4260)",14.459991,121.426043,2026-03-02,15:42:00,,
+Rufous-crowned Bee-eater,Merops americanus,8,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-02-26,6:23:00,213,6.17
 Balicassiao,Dicrurus balicassius,6,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-09-29,6:10:00,130,2.2
 Spotted Dove,Spilopelia chinensis,1,UP Open University,14.1739012,121.2626665,2024-04-28,6:37:00,27,1.59
 Eurasian Tree Sparrow,Passer montanus,3,Kalibato Lake Path,14.107634,121.375409,2025-05-06,15:38:00,14,0.4
@@ -490,7 +490,7 @@ Black-crowned Night Heron,Nycticorax nycticorax,3,"Looc, Laguna",14.2291621,121.
 Crested Myna,Acridotheres cristatellus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-24,5:50:00,168,0.894
 Barn Swallow,Hirundo rustica,10,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-03,16:00:00,127,4.207
 Middendorff's Grasshopper Warbler,Helopsaltes ochotensis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-02,6:15:00,120,0.3
-Eastern Cattle-Egret,Ardea coromanda,1,UPLB Freedom Park,14.1623187,121.2413118,2023-04-15,17:30:00,,
+Barred Rail,Gallirallus torquatus,2,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-08-01,17:30:00,30,0.9
 Philippine Coucal,Centropus viridis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-14,16:49:00,41,0.666
 Coleto,Sarcops calvus,3,"Brgy Aquino Road, Tiaong, Calabarzon, PH (13.976, 121.284)",13.9759417,121.2839083,2024-04-01,9:49:00,25,2.66
 Tawny Grassbird,Cincloramphus timoriensis,2,"Nuvali, Sta. Rosa",14.2194174,121.0651517,2025-08-05,15:19:00,118,0.5
@@ -507,7 +507,7 @@ Red-crested Malkoha,Dasylophus superciliosus,7,UP Los Baños--Campus,14.16739,12
 Philippine Jungle Crow,Corvus philippinus,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-04-21,15:05:00,15,
 Gray-rumped Swiftlet,Collocalia marginata,5,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-12,16:02:00,101,0.586
 Scale-feathered Malkoha,Dasylophus cumingi,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-27,6:56:00,465,4.293
-Philippine Pied-Fantail,Rhipidura nigritorquis,1,"10693 Elon-Elon Street, Los Baños PH-Laguna 14.17014, 121.24449",14.170135,121.244489,2025-03-14,7:08:00,,
+Guaiabero,Bolbopsittacus lunulatus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-05-06,6:30:00,369,8.386
 Besra,Tachyspiza virgata,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-03-23,6:20:00,210,
 Philippine Scops-Owl,Otus megalotis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-14,17:16:00,74,2.045
 Rock Pigeon,Columba livia,4,"Harmony Homes, San Pedro, Laguna",14.3402553,121.038866,2024-06-10,17:30:00,60,
@@ -516,7 +516,7 @@ Red-crested Malkoha,Dasylophus superciliosus,3,"IRRI Staff Housing, Los Baños",
 Brown-breasted Kingfisher,Halcyon gularis,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-25,5:39:00,57,0.831
 White-browed Shama,Copsychus luzoniensis,3,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2024-03-30,6:30:00,390,6.8
 Barn Swallow,Hirundo rustica,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-01-30,7:06:00,60,0.43
-Chestnut Munia,Lonchura atricapilla,2,"Cordon Riverside, Liliw, Calabarzon, PH",14.1524879,121.4458162,2023-05-12,7:00:00,,
+Yellow-vented Bulbul,Pycnonotus goiavier,X,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-05-10,8:30:00,30,
 duck sp.,Anatidae (duck sp.),2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-21,5:40:00,110,0.35
 Yellow-bellied Whistler,Pachycephala philippinensis,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2023-03-10,6:35:00,280,1.068
 white-eye sp.,Zosteropidae sp.,1,UP Los Baños--Campus,14.16739,121.2432396,2023-05-28,17:33:00,84,
@@ -524,7 +524,7 @@ Barn Swallow,Hirundo rustica,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2
 Blue-tailed Bee-eater,Merops philippinus,30,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2025-04-05,7:26:00,123,1.024
 Asian Palm Swift,Cypsiurus balasiensis,1,UP Los Baños--Campus,14.16739,121.2432396,2024-11-30,11:00:00,120,8.047
 Zitting Cisticola,Cisticola juncidis,3,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2026-05-01,7:30:00,38,1.635
-Coppersmith Barbet,Psilopogon haemacephalus,1,"Ilang-Ilang Street, Calamba City PH-Laguna 14.18075, 121.18702",14.180748,121.18702,2025-08-16,14:31:00,,
+Black-naped Oriole,Oriolus chinensis,1,Jason's Trail,14.191052,121.402799,2024-05-19,10:56:00,74,0.35
 Pacific Swallow,Hirundo javanica,3,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-03-30,16:30:00,60,
 Coppersmith Barbet,Psilopogon haemacephalus,X,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-04-29,12:31:00,96,2.49
 Red-keeled Flowerpecker,Dicaeum australe,1,UP Los Baños--Molawin Creek,14.1640716,121.2410724,2025-10-21,9:31:00,24,0.19
@@ -541,7 +541,7 @@ White-breasted Woodswallow,Artamus leucorynchus,1,"Maharlika Highway, San Pablo 
 Chestnut Munia,Lonchura atricapilla,1,"Brent International School Manila, Biñan City PH-Laguna",14.303807,121.083119,2024-06-02,6:29:00,92,1.671
 Little Egret,Egretta garzetta,15,"SLEX TR4, San Pablo City, Calabarzon, PH (13.999, 121.317)",13.9994965,121.3166882,2026-08-15,17:17:00,72,6.18
 Asian Glossy Starling,Aplonis panayensis,11,88 Hotspring Resort,14.1714479,121.2007186,2023-12-07,7:10:00,30,0.3
-Flaming Sunbird,Aethopyga flagrans,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-14,,,
+White-breasted Waterhen,Amaurornis phoenicurus,4,"Hillside, Los Baños PH-Laguna 14.17043, 121.23461",14.170429,121.234612,2026-05-09,5:49:00,64,2.068
 Oriental Skylark,Alauda gulgula,2,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-09,16:33:00,118,1.14
 Black-winged Stilt,Himantopus himantopus,85,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-07,5:50:00,120,
 Philippine Hawk-Cuckoo,Hierococcyx pectoralis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-07-23,16:14:00,63,0.65
@@ -596,7 +596,7 @@ Philippine Hanging-Parrot,Loriculus philippensis,2,"IRRI Staff Housing, Los Bañ
 Balicassiao,Dicrurus balicassius,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-04-02,6:45:00,240,10
 White-eared Brown-Dove,Phapitreron leucotis,1,UP Los Baños--College Country Club,14.1619964,121.2382092,2026-03-01,17:19:00,78,0.314
 Striated Grassbird,Megalurus palustris,1,UP Los Baños-CTTE,14.1510938,121.258175,2024-09-24,6:33:00,16,1.68
-Javan Pond-Heron,Ardeola speciosa,1,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-03,16:00:00,127,4.207
+Coleto,Sarcops calvus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-26,5:46:00,128,1.216
 Philippine Bulbul,Hypsipetes philippinus,X,UP Los Baños--Molawin Creek,14.1640716,121.2410724,2023-07-04,17:15:00,30,
 Red-keeled Flowerpecker,Dicaeum australe,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-01-20,8:15:00,90,
 Zebra Dove,Geopelia striata,5,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2026-03-15,6:20:00,40,
@@ -612,7 +612,7 @@ Eastern Cattle-Egret,Ardea coromanda,2,"San Isidro River, Brgy. San Roque, San P
 Bank Swallow,Riparia riparia,2,"Marcos Highway, Infanta PH-Quezon 14.54919, 121.48406",14.549186,121.484064,2025-03-24,11:50:00,11,
 White-browed Crake,Poliolimnas cinereus,1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-11-30,6:00:00,90,0.8
 Lesser Coucal,Centropus bengalensis,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-04-21,5:47:00,115,0.45
-Greater Painted-Snipe,Rostratula benghalensis,2,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-09,16:33:00,118,1.14
+Brown-breasted Kingfisher,Halcyon gularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-09,5:50:00,177,2.569
 Eurasian Tree Sparrow,Passer montanus,20,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-30,5:44:00,114,0.423
 Sharp-tailed Sandpiper,Calidris acuminata,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-03-03,6:09:00,125,0.35
 Black-winged Stilt,Himantopus himantopus,2,"Santa Cruz River, Sta. Cruz",14.3006462,121.4083735,2026-06-28,7:53:00,17,
@@ -650,7 +650,7 @@ Pink-necked Green-Pigeon,Treron vernans,1,"San Isidro River, Brgy. San Roque, Sa
 Barn Swallow,Hirundo rustica,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-07-18,6:21:00,191,34.073
 Red-keeled Flowerpecker,Dicaeum australe,6,UP Los Baños--Campus,14.16739,121.2432396,2026-01-27,12:24:00,40,2
 Rock Pigeon,Columba livia,4,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-02,5:45:00,120,0.4
-Brown Shrike,Lanius cristatus,3,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-03-31,8:55:00,48,3.4
+Collared Kingfisher,Todiramphus chloris,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-08-02,5:37:00,111,2.913
 Philippine Jungle Crow,Corvus philippinus,4,UP Los Baños-CTTE,14.1510938,121.258175,2026-03-11,15:33:00,156,1.849
 Red-crested Malkoha,Dasylophus superciliosus,1,"Lake Caliraya, Lumban",14.2986121,121.5062784,2026-05-02,11:56:00,80,
 Red Junglefowl,Gallus gallus,3,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2023-03-26,15:34:00,100,0.737
@@ -693,7 +693,7 @@ Coleto,Sarcops calvus,1,Mt Makiling/Los Baños general area,14.155179,121.23509,
 Balicassiao,Dicrurus balicassius,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-06-05,6:00:00,75,0.8
 Pacific Swallow,Hirundo javanica,2,To Infanta,14.1663145,121.2549178,2025-12-14,9:02:00,445,8.05
 Striated Grassbird,Megalurus palustris,6,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-04-19,5:50:00,100,0.4
-Gray-backed Tailorbird,Orthotomus derbianus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-20,5:46:00,203,1.161
+Eurasian Tree Sparrow,Passer montanus,X,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2025-02-19,16:15:00,300,0.14
 White-browed Crake,Poliolimnas cinereus,3,"Laguna Boulevard, Santa Rosa, Calabarzon, PH (14,248, 121,066)",14.2476565,121.0662872,2024-11-28,6:09:00,70,1.717
 Golden-headed Cisticola,Cisticola exilis,6,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2024-07-09,5:30:00,30,0.5
 Lowland White-eye,Zosterops meyeni,2,San Pedro Memorial Park,14.3568652,121.0354543,2025-07-16,16:25:00,35,
@@ -708,7 +708,7 @@ Flaming Sunbird,Aethopyga flagrans,2,"IRRI Staff Housing, Los Baños",14.1611402
 Philippine Hanging-Parrot,Loriculus philippensis,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-05-01,5:20:00,410,8.047
 Common Greenshank,Tringa nebularia,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-14,5:45:00,160,
 Black-winged Stilt,Himantopus himantopus,8,"Wawa Road, Paete PH-Laguna 14.36361, 121.47633",14.363605,121.476328,2025-04-30,12:06:00,35,0.235
-Gray-rumped Swiftlet,Collocalia marginata,2,"Los Baños, Calabarzon, PH (14.166, 121.241)",14.1656435,121.2410519,2024-02-26,11:50:00,,
+Barred Rail,Gallirallus torquatus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-02,6:20:00,100,0.8
 Balicassiao,Dicrurus balicassius,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-28,5:40:00,110,1.31
 Northern Lapwing,Vanellus vanellus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-02-25,17:19:00,77,0.164
 Little Egret,Egretta garzetta,21,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2025-02-19,16:15:00,300,0.14
@@ -730,7 +730,7 @@ Eurasian Tree Sparrow,Passer montanus,X,"Sampaloc Lake, San Pablo City",14.07592
 Pacific Swallow,Hirundo javanica,5,Jose R. Velasco Avenue,14.1589017,121.225865,2024-10-19,7:45:00,94,1.76
 Yellow-vented Bulbul,Pycnonotus goiavier,1,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2025-02-15,7:06:00,15,0.275
 Gray-streaked Flycatcher,Muscicapa griseisticta,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-29,16:24:00,72,1.35
-Scaly-breasted Munia,Lonchura punctulata,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-06,17:46:00,,
+Philippine Jungle Crow,Corvus philippinus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-04-16,5:29:00,158,3.506
 White-browed Crake,Poliolimnas cinereus,8,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-04-21,14:36:00,153,3.93
 Bar-bellied Cuckooshrike,Coracina striata,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-03-08,4:43:00,434,5
 Collared Kingfisher,Todiramphus chloris,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-25,5:40:00,100,2
@@ -755,7 +755,7 @@ Little Ringed Plover,Thinornis dubius,7,"San Isidro River, Brgy. San Roque, San 
 Scaly-breasted Munia,Lonchura punctulata,X,UP Los Baños-CTTE,14.1510938,121.258175,2026-04-30,17:31:00,45,0.913
 Philippine Coucal,Centropus viridis,4,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-03-10,6:15:00,225,5.4
 Gray Wagtail,Motacilla cinerea,1,UP Los Baños-CTTE,14.1510938,121.258175,2024-11-06,15:30:00,120,4
-Philippine Scops-Owl,Otus megalotis,2,"Marcos Highway, Infanta PH-Quezon (14.5430,121.4853)",14.543012,121.485322,2025-04-09,20:21:00,55,0.656
+Chestnut Munia,Lonchura atricapilla,2,UP Los Baños--Campus,14.16739,121.2432396,2025-05-14,17:41:00,10,
 Golden-bellied Gerygone,Gerygone sulphurea,X,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-07-28,6:49:00,79,2.27
 Balicassiao,Dicrurus balicassius,7,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2025-01-14,8:19:00,74,0.706
 Pygmy Flowerpecker,Dicaeum pygmaeum,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2025-08-24,16:20:00,80,
@@ -803,7 +803,7 @@ Middendorff's Grasshopper Warbler,Helopsaltes ochotensis,1,"San Pedro lakeside, 
 cisticola sp.,Cisticola sp.,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-10-04,6:10:00,80,0.25
 Pied Triller,Lalage nigra,1,"12736 Road 1, Los Baños PH-Laguna 14.18230, 121.23754",14.182301,121.237536,2026-03-07,8:34:00,29,
 Zebra Dove,Geopelia striata,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-06-05,5:15:00,40,
-Yellowish White-eye,Zosterops nigrorum,8,"Santa Maria, Calabarzon, PH (14.535, 121.471)",14.5353185,121.4707188,2023-03-24,6:00:00,,
+Brown-breasted Kingfisher,Halcyon gularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-26,6:04:00,12,0.296
 Striated Grassbird,Megalurus palustris,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-04-01,17:45:00,35,0.834
 Brown-breasted Kingfisher,Halcyon gularis,4,Home,14.1331377,121.4157256,2026-04-09,8:47:00,26,0.083
 Garden Sunbird,Cinnyris jugularis,2,"Makiling Conference Center, Calamba City PH-Laguna 14.17360, 121.13494",14.173601,121.134942,2023-06-28,16:29:00,94,1.085
@@ -841,7 +841,7 @@ Oriental Reed Warbler,Acrocephalus orientalis,2,"Nuvali, Sta. Rosa",14.2194174,1
 Red-crested Malkoha,Dasylophus superciliosus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-11-19,16:55:00,39,0.472
 Asian Koel,Eudynamys scolopaceus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-07-02,16:24:00,25,0.07
 Yellow-vented Bulbul,Pycnonotus goiavier,1,"Tubigan (Napoco), Biñan",14.3298137,121.0767227,2024-12-17,12:55:00,15,
-Eastern Cattle-Egret,Ardea coromanda,3,Dairy Training  and  Research Institute,14.15712,121.24536,2024-01-18,,,
+Coppersmith Barbet,Psilopogon haemacephalus,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-02-20,5:30:00,300,3
 Lesser Coucal,Centropus bengalensis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-06-14,6:12:00,80,0.2
 Eurasian Tree Sparrow,Passer montanus,10,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-12-21,6:30:00,30,0.5
 Pacific Swallow,Hirundo javanica,3,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-01-22,6:20:00,100,
@@ -853,7 +853,7 @@ Whiskered Tern,Chlidonias hybrida,60,"San Isidro River, Brgy. San Roque, San Ped
 Purple Heron,Ardea purpurea,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-14,5:45:00,160,
 Black-naped Oriole,Oriolus chinensis,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-03-20,6:20:00,90,2
 Luzon Boobook,Ninox philippensis,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-11-05,21:01:00,161,5.269
-Philippine Jungle Crow,Corvus philippinus,1,"12735 Road 1, Los Baños PH-Laguna 14.18230, 121.23762",14.182302,121.237623,2026-02-14,16:45:00,,
+Black-winged Stilt,Himantopus himantopus,100,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-03-07,5:55:00,100,
 Coppersmith Barbet,Psilopogon haemacephalus,1,UP Los Baños-CTTE,14.1510938,121.258175,2026-03-11,15:33:00,156,1.849
 Philippine Coucal,Centropus viridis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-10-30,6:31:00,97,1.297
 Bicolored Flowerpecker,Dicaeum bicolor,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-09-15,6:22:00,200,1.462
@@ -875,11 +875,11 @@ Plain Bush-hen,Amaurornis olivacea,1,UP Los Baños-CTTE,14.1510938,121.258175,20
 Whiskered Tern,Chlidonias hybrida,30,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-02,6:15:00,120,0.3
 Elegant Tit,Periparus elegans,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-11-17,5:56:00,175,1.825
 wagtail sp.,Motacilla sp.,3,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-30,5:54:00,81,0.457
-Red Junglefowl,Gallus gallus,X,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2024-05-02,6:00:00,,
+Wood Sandpiper,Tringa glareola,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-02-02,6:20:00,100,0.35
 Scaly-breasted Munia,Lonchura punctulata,25,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-03-16,5:45:00,75,4
 Black-naped Oriole,Oriolus chinensis,1,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2025-11-29,6:05:00,40,0.72
-Brown Shrike,Lanius cristatus,1,LA View Mountain Resort,14.5492647,121.4839379,2023-02-17,14:00:00,,
-Philippine Jungle Crow,Corvus philippinus,13,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-10-06,8:02:00,360,5
+Eurasian Tree Sparrow,Passer montanus,15,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-01,5:52:00,110,0.35
+Yellow-vented Bulbul,Pycnonotus goiavier,7,UP Los Baños--Pili Drive,14.1606967,121.2453667,2025-10-07,6:29:00,107,1.552
 Asian Koel,Eudynamys scolopaceus,2,UP Los Baños--Molawin Creek,14.1640716,121.2410724,2025-05-29,16:16:00,46,1.679
 Eurasian Tree Sparrow,Passer montanus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-04-13,6:45:00,165,3
 Philippine Bulbul,Hypsipetes philippinus,2,"Brgy. Jose Laurel Senior, Sta. Maria",14.546888,121.46262,2023-02-03,6:42:00,11,0.176
@@ -899,11 +899,11 @@ Blue-tailed Bee-eater,Merops philippinus,X,"IRRI Staff Housing, Los Baños",14.1
 Stripe-sided Rhabdornis,Rhabdornis mystacalis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-07-23,16:14:00,63,0.65
 Gray-rumped Swiftlet,Collocalia marginata,7,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-03-26,3:40:00,120,0.537
 Rock Pigeon,Columba livia,14,UP Los Baños--Pili Drive,14.1606967,121.2453667,2025-08-01,6:28:00,108,1.509
-Brown-breasted Kingfisher,Halcyon gularis,1,"Marikina-Infanta Highway, Santa Maria, Calabarzon, PH (14.563, 121.458)",14.5632754,121.4576436,2025-12-02,15:16:00,,
+Whiskered Tern,Chlidonias hybrida,13,UP Los Baños--Pili Drive,14.1606967,121.2453667,2026-08-26,5:45:00,60,0.4
 Coppersmith Barbet,Psilopogon haemacephalus,2,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-03-17,7:52:00,135,
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,"Barangay Maunlad Road, Siniloan, Calabarzon, PH (14.477, 121.529)",14.4769594,121.5287474,2026-07-27,13:13:00,60,1.5
 Flaming Sunbird,Aethopyga flagrans,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-13,9:04:00,26,0.552
-Pacific Swallow,Hirundo javanica,2,"Marcos Highway, Infanta PH-Quezon 14.54909, 121.48363",14.549092,121.483635,2024-03-16,13:04:00,,
+Pied Triller,Lalage nigra,2,"Makiling Conference Center, Calamba City PH-Laguna 14.17360, 121.13494",14.173601,121.134942,2023-06-20,16:43:00,90,2.502
 Philippine Jungle Crow,Corvus philippinus,X,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2026-08-26,16:30:00,90,1
 Scaly-breasted Munia,Lonchura punctulata,4,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-03,5:59:00,95,0.864
 Little Egret,Egretta garzetta,8,UP Los Baños--DTRI,14.1568936,121.2461495,2024-10-11,14:30:00,180,1
@@ -914,7 +914,7 @@ Luzon Hornbill,Penelopides manillae,4,"IRRI Staff Housing, Los Baños",14.161140
 Lowland White-eye,Zosterops meyeni,1,"Nuvali, Sta. Rosa",14.2194174,121.0651517,2023-08-07,16:44:00,22,1.1
 Gray-rumped Swiftlet,Collocalia marginata,2,UP Los Baños--College Country Club,14.1619964,121.2382092,2025-04-04,6:38:00,3,0.187
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,IRRI HOUSING,14.1606322,121.24031,2025-04-25,7:00:00,120,3
-Philippine Cuckoo-Dove,Macropygia tenuirostris,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
+Black Bittern,Botaurus flavicollis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-30,5:44:00,114,0.423
 Philippine Coucal,Centropus viridis,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-07-07,6:16:00,149,4
 Whiskered Tern,Chlidonias hybrida,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-07,16:47:00,5,
 Barn Swallow,Hirundo rustica,X,"Kanluran Road, Los Baños, Calabarzon, PH (14,152, 121,234)",14.1519535,121.2335477,2026-02-10,16:14:00,85,0.14
@@ -1005,7 +1005,7 @@ Garden Sunbird,Cinnyris jugularis,1,"Kanluran Road, Los Baños, Calabarzon, PH (
 Red-keeled Flowerpecker,Dicaeum australe,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-02-20,5:30:00,300,3
 Philippine Scops-Owl,Otus megalotis,4,UP Los Baños--Campus,14.16739,121.2432396,2026-02-05,19:00:00,30,
 Spotted Kingfisher,Actenoides lindsayi,2,"La View, Marcos Highway, Real PH-Quezon",14.549224,121.484079,2026-04-07,5:05:00,12,
-Pygmy Flowerpecker,Dicaeum pygmaeum,1,Dayap,14.179179,121.336534,2024-12-25,11:00:00,,
+Philippine Magpie-Robin,Copsychus mindanensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-06-07,6:39:00,98,1.67
 White-breasted Waterhen,Amaurornis phoenicurus,3,Binan-Sta. Rosa Access Road,14.3115164,121.0954563,2024-11-10,6:00:00,30,
 Pacific Swallow,Hirundo javanica,1,Jollibee Bay Highway,14.1787701,121.2882471,2023-04-06,13:40:00,7,
 Philippine Hanging-Parrot,Loriculus philippensis,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-11-12,6:01:00,113,5.449
@@ -1056,7 +1056,7 @@ Blue-tailed Bee-eater,Merops philippinus,1,"San Isidro River, Brgy. San Roque, S
 Guaiabero,Bolbopsittacus lunulatus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-15,15:43:00,90,2
 Philippine Pied-Fantail,Rhipidura nigritorquis,2,"Nuvali, Sta. Rosa",14.2194174,121.0651517,2024-04-08,15:55:00,35,0.1
 Philippine Bulbul,Hypsipetes philippinus,1,Santa Elena Golf Club,14.2444196,121.1071289,2024-01-29,6:42:00,290,17.27
-Elegant Tit,Periparus elegans,X,Marilaque Highway--Santa Maria,14.53092,121.46475,2025-12-27,7:02:00,610,28.492
+Eurasian Tree Sparrow,Passer montanus,6,UP Los Baños--Campus,14.16739,121.2432396,2024-03-06,6:13:00,11,0.62
 Coppersmith Barbet,Psilopogon haemacephalus,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-05-28,5:20:00,95,4
 Spotted Dove,Spilopelia chinensis,3,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-05-03,17:00:00,90,2
 Coleto,Sarcops calvus,1,IRRI Staff Housing,14.1618486,121.2355202,2025-09-17,7:03:00,85,0.994
@@ -1077,7 +1077,7 @@ Medium Egret,Ardea intermedia,1,"International Rice Research Institute, Los Bañ
 White-breasted Waterhen,Amaurornis phoenicurus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-14,5:45:00,160,
 Chestnut Munia,Lonchura atricapilla,1,"Southwoods City, Biñan City PH-Calabarzon 14.32671, 121.05417",14.32671,121.054166,2026-07-26,6:36:00,63,0.915
 Red-keeled Flowerpecker,Dicaeum australe,8,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-08-16,5:58:00,105,0.794
-Red-keeled Flowerpecker,Dicaeum australe,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-05-17,6:00:00,,
+Crested Myna,Acridotheres cristatellus,2,"Makiling Conference Center, Calamba City PH-Laguna 14.17360, 121.13494",14.173601,121.134942,2023-07-05,17:59:00,29,0.626
 Philippine Bulbul,Hypsipetes philippinus,3,UP Los Baños--College Country Club,14.1619964,121.2382092,2025-12-25,7:50:00,217,3.858
 Brown-breasted Kingfisher,Halcyon gularis,X,Word Of Life Bible Institute - Philippines,14.10616,121.2728932,2025-03-31,5:59:00,199,1.582
 Chestnut Munia,Lonchura atricapilla,3,"Umali Subdivision, Batong Malake LB",14.169184,121.2422903,2025-01-28,6:31:00,15,0.4
@@ -1108,7 +1108,7 @@ Collared Kingfisher,Todiramphus chloris,2,"Rain Garden Evozone, brgy. Don Jose, 
 Crested Myna,Acridotheres cristatellus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-02,16:46:00,80,0.569
 Purple Heron,Ardea purpurea,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-04-20,5:50:00,120,0.5
 Garden Sunbird,Cinnyris jugularis,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-11-10,6:30:00,40,
-Guaiabero,Bolbopsittacus lunulatus,5,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-04,5:50:00,112,2.01
+Eurasian Tree Sparrow,Passer montanus,9,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-03-26,3:40:00,120,0.537
 Purple-throated Sunbird,Leptocoma sperata,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-18,7:48:00,101,2.423
 Long-tailed Shrike,Lanius schach,15,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-11-16,5:20:00,105,3.5
 Whiskered Tern,Chlidonias hybrida,40,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-08-31,6:23:00,60,0.1
@@ -1155,7 +1155,7 @@ Eastern Red-rumped Swallow,Cecropis daurica,2,UP Los Baños--Pili Drive,14.16069
 Philippine Magpie-Robin,Copsychus mindanensis,2,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-02-21,9:00:00,30,1
 Swinhoe's Snipe,Gallinago megala,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-03-20,6:20:00,90,2
 Ameline Swiftlet,Aerodramus amelis,4,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-04-27,6:25:00,127,2
-Eurasian Tree Sparrow,Passer montanus,5,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-12-23,9:10:00,,
+White-breasted Woodswallow,Artamus leucorynchus,3,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-10-15,16:02:00,49,2.69
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-02-03,7:12:00,12,0.224
 Golden-headed Cisticola,Cisticola exilis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,12:58:00,52,1.983
 Black-naped Oriole,Oriolus chinensis,X,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-10-08,6:30:00,34,1.068
@@ -1195,14 +1195,14 @@ Golden-bellied Gerygone,Gerygone sulphurea,2,UP Los Baños--Pili Drive,14.160696
 Striated Grassbird,Megalurus palustris,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-03-30,16:58:00,75,0.8
 Eastern Cattle-Egret,Ardea coromanda,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-15,5:45:00,75,0.2
 Philippine Pygmy Woodpecker,Yungipicus maculatus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-09-20,5:44:00,70,0.892
-Eastern Cattle-Egret,Ardea coromanda,7,"Silangan Exit, SLEX, Calamba, Laguna",14.2237059,121.1230382,2024-12-26,15:57:00,,
+Clamorous Reed Warbler,Acrocephalus stentoreus,4,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-06-15,6:30:00,45,0.5
 Yellow-vented Bulbul,Pycnonotus goiavier,1,Tuntungin Putho,14.1593357,121.2539949,2024-04-27,7:46:00,52,2.762
 Oriental Skylark,Alauda gulgula,12,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-03,6:10:00,46,1.81
 Philippine Jungle Crow,Corvus philippinus,1,UP Los Baños--Campus,14.16739,121.2432396,2025-05-16,6:33:00,27,4.032
 Asian Palm Swift,Cypsiurus balasiensis,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2026-01-15,6:50:00,719,15.937
 Wood Sandpiper,Tringa glareola,12,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-04,5:54:00,120,0.3
 Scaly-breasted Munia,Lonchura punctulata,X,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-12-09,13:43:00,26,0.58
-Brown Shrike,Lanius cristatus,1,"Ph - Riders Rest, Marcos Hwy",14.540716,121.4820515,2025-03-18,13:30:00,,
+Philippine Jungle Crow,Corvus philippinus,1,"Calamba, Calabarzon, PH (14.202, 121.07)",14.2019617,121.0703167,2024-08-13,17:20:00,90,
 Asian Koel,Eudynamys scolopaceus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-09,16:10:00,100,3
 Yellow-vented Bulbul,Pycnonotus goiavier,1,UP Los Baños--Campus,14.16739,121.2432396,2023-02-23,8:13:00,14,0.238
 Collared Kingfisher,Todiramphus chloris,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-05-05,17:00:00,30,1.5
@@ -1221,8 +1221,8 @@ Gray-rumped Swiftlet,Collocalia marginata,9,"Mater Ecclesiae School, San Pedro, 
 Garden Sunbird,Cinnyris jugularis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-15,6:27:00,152,0.96
 Oriental Honey-buzzard,Pernis ptilorhynchus,3,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-11-27,9:41:00,89,1.93
 swiftlet sp.,Collocalia/Aerodramus sp.,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-05-29,14:59:00,51,0.789
-Zitting Cisticola,Cisticola juncidis,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-03-21,7:03:00,,1.684
-Philippine Bulbul,Hypsipetes philippinus,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-17,,,
+Eastern Yellow Wagtail,Motacilla tschutschensis,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-03-30,6:10:00,120,
+White-breasted Woodswallow,Artamus leucorynchus,4,UP Los Baños--Campus,14.16739,121.2432396,2026-08-31,6:30:00,181,5.583
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-10-13,15:32:00,140,3.506
 Philippine Hanging-Parrot,Loriculus philippensis,1,UP Los Baños - Molawin Biopark,14.1624552,121.2441177,2025-06-22,17:05:00,65,
 Striated Grassbird,Megalurus palustris,1,UP Los Baños--Campus,14.16739,121.2432396,2025-11-02,16:24:00,83,5.644
@@ -1232,12 +1232,12 @@ Yellow-vented Bulbul,Pycnonotus goiavier,6,"Marcos Highway, Santa Maria PH-Lagun
 Lesser Coucal,Centropus bengalensis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-16,6:02:00,70,0.8
 Siberian Sand-Plover,Anarhynchus mongolus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-04,5:48:00,120,0.5
 Eurasian Tree Sparrow,Passer montanus,20,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-04-26,17:46:00,54,1.4
-Zebra Dove,Geopelia striata,X,UP Los Baños--DTRI,14.1568936,121.2461495,2026-03-18,,,
+White-breasted Waterhen,Amaurornis phoenicurus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-04,6:43:00,147,0.806
 Collared Kingfisher,Todiramphus chloris,1,UP Los Baños--DTRI,14.1568936,121.2461495,2023-03-09,15:48:00,178,10.317
 Coppersmith Barbet,Psilopogon haemacephalus,1,"Conservation Avenue, Calamba, Calabarzon, PH Nuvali Avida",14.2101216,121.0704693,2025-03-27,17:55:00,5,0
 Gray-backed Tailorbird,Orthotomus derbianus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-25,6:21:00,107,1.8
 Peregrine Falcon,Falco peregrinus,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2026-01-03,6:30:00,35,
-Philippine Coucal,Centropus viridis,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-10-06,8:02:00,360,5
+White-bellied Munia,Lonchura leucogastra,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-26,7:05:00,94,1.255
 Striated Grassbird,Megalurus palustris,2,UP Los Baños-CTTE,14.1510938,121.258175,2025-09-20,8:38:00,26,0.431
 Little Heron,Butorides atricapilla,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-01-06,6:25:00,100,0.35
 Brown-breasted Kingfisher,Halcyon gularis,4,Molawin Creek - UPLB SU Building,14.1622935,121.2424985,2025-09-12,11:36:00,46,0.657
@@ -1249,14 +1249,14 @@ Buff-banded Rail,Gallirallus philippensis,3,"International Rice Research Institu
 Philippine Jungle Crow,Corvus philippinus,1,UP Los Baños--DTRI,14.1568936,121.2461495,2023-11-10,16:59:00,14,0.188
 Black-naped Oriole,Oriolus chinensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-10-01,6:55:00,221,2.373
 small bittern sp.,Botaurus sp. (small bittern sp.),1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-03,5:59:00,95,0.864
-Yellow-vented Bulbul,Pycnonotus goiavier,1,"Makiling Conference Center, Calamba City PH-Laguna 14.17360, 121.13494",14.173601,121.134942,2024-08-01,17:05:00,,
+Gray-streaked Flycatcher,Muscicapa griseisticta,1,UP Los Baños--EDC Binhi Biodiversity Park,14.1545235,121.2367729,2026-02-09,7:41:00,45,1.667
 Pacific Swallow,Hirundo javanica,5,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2024-10-09,6:00:00,30,0.3
 Philippine Bulbul,Hypsipetes philippinus,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-02,5:56:00,121,3.074
 Mangrove Blue Flycatcher,Cyornis rufigastra,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-08-02,5:37:00,111,2.913
 Gray-faced Buzzard,Butastur indicus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-07,6:30:00,8,0.85
 Philippine Jungle Crow,Corvus philippinus,2,Southwoods City,14.3334777,121.0467962,2026-06-21,6:40:00,40,2
 Yellow-vented Bulbul,Pycnonotus goiavier,5,"Rizal Re-Creation Center, Rizal",14.1117297,121.3965172,2024-11-01,6:30:00,660,
-Philippine Jungle Crow,Corvus philippinus,4,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-13,9:04:00,26,0.552
+Red-keeled Flowerpecker,Dicaeum australe,4,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2024-10-19,10:09:00,122,0.835
 Garden Sunbird,Cinnyris jugularis,6,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-09-07,5:40:00,90,
 Black-winged Stilt,Himantopus himantopus,20,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-12,5:50:00,90,0.8
 Besra,Tachyspiza virgata,1,"Casa Angelina Santa Maria, Calabarzon, PH (14.53, 121.479)",14.5297515,121.4789076,2024-06-20,7:35:00,224,16.946
@@ -1273,11 +1273,11 @@ Philippine Pitta,Erythropitta erythrogaster,1,Mt. Makiling Forest Reserve--TREES
 Brown-breasted Kingfisher,Halcyon gularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-25,5:40:00,120,0.75
 Stripe-sided Rhabdornis,Rhabdornis mystacalis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-11-28,6:54:00,50,0.857
 Chestnut Munia,Lonchura atricapilla,8,"Santisimo Rosario Road, San Pablo City, Calabarzon, PH (13.987, 121.32)",13.9874214,121.3196118,2024-04-01,9:33:00,10,0.71
-Eurasian Tree Sparrow,Passer montanus,8,So Many Birds Place,14.21012,121.0704352,2024-05-13,15:00:00,,
+Red Collared-Dove,Streptopelia tranquebarica,2,UP Los Baños--Campus,14.16739,121.2432396,2024-04-05,6:03:00,54,1.46
 Indigo-banded Kingfisher,Ceyx cyanopectus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-28,5:40:00,110,1.31
 Pacific Swallow,Hirundo javanica,1,UP Los Baños--Campus,14.16739,121.2432396,2025-03-14,7:18:00,91,0.576
 Scaly-breasted Munia,Lonchura punctulata,X,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-04-09,6:00:00,120,
-Whiskered Tern,Chlidonias hybrida,3,Caliraya Lake Front,14.292437,121.530896,2026-05-17,6:30:00,,
+Balicassiao,Dicrurus balicassius,3,Mt Makiling/Los Baños general area,14.155179,121.23509,2026-03-12,5:00:00,420,9.656
 Gray-rumped Swiftlet,Collocalia marginata,20,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-03-20,17:15:00,90,2
 White-browed Crake,Poliolimnas cinereus,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-04-06,5:58:00,145,0.4
 Barred Rail,Gallirallus torquatus,3,UP Los Baños-CTTE,14.1510938,121.258175,2026-05-17,18:05:00,19,0.223
@@ -1289,7 +1289,7 @@ Philippine Serpent-Eagle,Spilornis holospilus,1,"IRRI Staff Housing, Los Baños"
 Collared Kingfisher,Todiramphus chloris,1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-31,6:12:00,80,0.5
 Black-naped Oriole,Oriolus chinensis,1,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-05-10,6:00:00,150,
 Asian Koel,Eudynamys scolopaceus,X,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-06-09,6:19:00,19,0.372
-Spotted Kingfisher,Actenoides lindsayi,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-12,5:50:00,,
+White-breasted Waterhen,Amaurornis phoenicurus,1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-03,5:59:00,95,0.864
 Zebra Dove,Geopelia striata,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-14,6:25:00,115,0.8
 Whiskered Tern,Chlidonias hybrida,15,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-04-23,5:52:00,110,0.4
 Yellow-wattled Bulbul,Microtarsus urostictus,4,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2023-03-26,6:26:00,253,7.067
@@ -1355,7 +1355,7 @@ Zebra Dove,Geopelia striata,1,Open University,14.1727953,121.2643697,2024-09-11,
 Blue-tailed Bee-eater,Merops philippinus,6,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-07-07,16:44:00,68,1.7
 Eurasian Tree Sparrow,Passer montanus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-09-15,6:22:00,200,1.462
 Eastern Cattle-Egret,Ardea coromanda,10,UP Los Baños--Campus,14.16739,121.2432396,2024-04-01,16:03:00,138,7.893
-Eurasian Tree Sparrow,Passer montanus,1,"College Junction, Los Baños",14.1788117,121.2413406,2023-11-02,15:55:00,,
+Paddyfield Pipit,Anthus rufulus,1,"Calamba, Calabarzon, PH (14.206, 121.07)",14.2061472,121.0704172,2024-08-10,16:48:00,140,2.8
 Golden-bellied Gerygone,Gerygone sulphurea,2,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2025-10-29,6:00:00,30,0.6
 Little Egret,Egretta garzetta,30,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,16:21:00,107,0.473
 Eurasian Tree Sparrow,Passer montanus,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-08,5:47:00,175,0.213
@@ -1415,7 +1415,7 @@ Coppersmith Barbet,Psilopogon haemacephalus,2,UP Los Baños--College Country Clu
 Medium Egret,Ardea intermedia,1,UP Los Baños-CTTE,14.1510938,121.258175,2026-03-11,15:33:00,156,1.849
 Common Sandpiper,Actitis hypoleucos,1,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-12-03,16:12:00,70,2.773
 Coppersmith Barbet,Psilopogon haemacephalus,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2026-02-10,16:16:00,83,0.119
-Philippine Jungle Crow,Corvus philippinus,4,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-13,9:04:00,26,0.552
+Philippine Coucal,Centropus viridis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-02-06,6:24:00,208,0.768
 Crested Myna,Acridotheres cristatellus,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-11-11,6:09:00,58,1.632
 Pacific Swift,Apus pacificus,1,Waterton,14.2100109,121.07046,2024-07-09,7:05:00,20,
 Collared Kingfisher,Todiramphus chloris,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-07-20,16:45:00,58,1.448
@@ -1427,7 +1427,7 @@ Gray-streaked Flycatcher,Muscicapa griseisticta,1,"Makiling Botanic Garden, Los 
 Brown Shrike,Lanius cristatus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-05-11,7:00:00,160,0.3
 Chestnut Munia,Lonchura atricapilla,10,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-05-12,5:50:00,90,0.8
 Purple Heron,Ardea purpurea,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-16,6:12:00,95,1.2
-Eurasian Tree Sparrow,Passer montanus,5,J,14.2101104,121.0704593,2024-05-20,17:18:00,,
+Middendorff's Grasshopper Warbler,Helopsaltes ochotensis,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-02-27,6:02:00,95,
 Coppersmith Barbet,Psilopogon haemacephalus,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-07-28,15:38:00,75,0.512
 Garden Sunbird,Cinnyris jugularis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-01-29,16:15:00,90,3
 Eastern Yellow Wagtail,Motacilla tschutschensis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-01-15,6:30:00,65,0.37
@@ -1461,7 +1461,7 @@ Purple Heron,Ardea purpurea,1,UP Los Baños-CTTE,14.1510938,121.258175,2026-03-1
 dark swiftlet sp.,Aerodramus sp.,2,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2024-08-28,17:30:00,45,0.25
 Rock Pigeon,Columba livia,3,"Bukid, Banlic",14.2284309,121.1553346,2025-12-01,8:57:00,25,
 Chestnut Munia,Lonchura atricapilla,3,"Seda Nuvali | Evozone Avenue, Santa Rosa, Calabarzon, PH (14.239, 121.059)",14.2386293,121.0594456,2025-05-14,5:56:00,12,0.75
-Red-crested Malkoha,Dasylophus superciliosus,2,UP Los Baños--College Country Club,14.1619964,121.2382092,2026-03-01,17:19:00,78,0.314
+Yellow-vented Bulbul,Pycnonotus goiavier,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-07-15,7:30:00,90,
 Gray-rumped Swiftlet,Collocalia marginata,7,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-10-13,15:32:00,140,3.506
 Long-tailed Shrike,Lanius schach,1,"Kilangin Falls Trail, Liliw PH-Laguna 14.10525, 121.46654",14.105252,121.466536,2025-05-18,11:22:00,11,0.378
 Brown Shrike,Lanius cristatus,2,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2024-08-28,17:30:00,45,0.25
@@ -1525,7 +1525,7 @@ Golden-headed Cisticola,Cisticola exilis,5,"Mater Ecclesiae School, San Pedro, L
 Collared Kingfisher,Todiramphus chloris,1,"St. John the Baptist Church, Calamba City PH-Calabarzon (14.2138,121.1671)",14.213843,121.167121,2026-07-17,14:18:00,120,4.828
 Yellow-vented Bulbul,Pycnonotus goiavier,7,UP Los Baños-CTTE,14.1510938,121.258175,2025-02-01,16:30:00,120,1
 Phylloscopus sp.,Phylloscopus sp.,1,UP Los Baños--Campus,14.16739,121.2432396,2025-11-02,6:29:00,171,7.541
-Coppersmith Barbet,Psilopogon haemacephalus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-02-22,10:32:00,30,0.239
+Gray Wagtail,Motacilla cinerea,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-11-06,7:38:00,4,0.248
 Black-winged Stilt,Himantopus himantopus,80,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,16:21:00,107,0.473
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-12-25,8:05:00,110,
 Osprey,Pandion haliaetus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-05-08,6:00:00,120,
@@ -1550,7 +1550,7 @@ Chestnut Munia,Lonchura atricapilla,1,"Jose D. Drilon, Jr, Los Baños PH-Laguna 
 Golden-bellied Gerygone,Gerygone sulphurea,1,UP Los Baños-CTTE,14.1510938,121.258175,2024-08-23,16:45:00,95,5.05
 Blue-tailed Bee-eater,Merops philippinus,1,Molawin Creek Bridge - Rambutan,14.1640295,121.24518,2025-05-05,17:30:00,30,
 Black-chinned Fruit-Dove,Ramphiculus leclancheri,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2023-03-10,6:35:00,280,1.068
-Rock Pigeon,Columba livia,3,"Harmony Homes, San Pedro, Laguna",14.3402553,121.038866,2024-06-04,17:00:00,,
+Besra,Tachyspiza virgata,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-08-17,8:45:00,5,0.444
 Black-winged Stilt,Himantopus himantopus,32,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-31,6:12:00,92,0.396
 Golden-bellied Gerygone,Gerygone sulphurea,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-03-03,6:44:00,40,1.161
 Eurasian Moorhen,Gallinula chloropus,3,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-08-29,7:00:00,67,0.68
@@ -1575,7 +1575,7 @@ Chestnut Munia,Lonchura atricapilla,1,"Ilaya, San Pablo City",14.0742684,121.326
 Eurasian Tree Sparrow,Passer montanus,4,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-07-03,14:47:00,60,0.954
 Blue-tailed Bee-eater,Merops philippinus,1,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-07-28,5:51:00,29,0.66
 Philippine Hanging-Parrot,Loriculus philippensis,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-06-11,4:29:00,454,1.953
-Purple-throated Sunbird,Leptocoma sperata,9,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-02-05,7:14:00,,
+Philippine Coucal,Centropus viridis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-24,13:34:00,4,0.06
 Rock Pigeon,Columba livia,7,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-12-30,16:20:00,90,
 Philippine Jungle Crow,Corvus philippinus,2,"Calamba, Calabarzon, PH (14.187, 121.156)",14.1874141,121.1562752,2024-03-30,11:29:00,120,
 Philippine Pygmy Woodpecker,Yungipicus maculatus,1,"Marilaque Highway, Santa Maria PH-Calabarzon (14.5463,121.4601)",14.546326,121.460122,2026-07-11,6:37:00,29,0.108
@@ -1603,7 +1603,7 @@ Rufous-crowned Bee-eater,Merops americanus,3,Mt. Makiling Forest Reserve--Trail,
 Coleto,Sarcops calvus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-11-12,7:56:00,189,1.821
 Little Egret,Egretta garzetta,40,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,5:42:00,135,0.215
 Philippine Jungle Crow,Corvus philippinus,4,"SEARCA Residence Hotel, Los Baños",14.161323,121.239293,2025-03-07,17:23:00,47,0.05
-Garden Sunbird,Cinnyris jugularis,2,besra bridge,14.164719,121.237216,2025-04-15,16:25:00,,
+Balicassiao,Dicrurus balicassius,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-03-22,6:14:00,240,10.78
 Eurasian Tree Sparrow,Passer montanus,10,"Seda Nuvali | Evozone Avenue, Santa Rosa, Calabarzon, PH (14.239, 121.059)",14.2386293,121.0594456,2025-10-22,5:36:00,45,1.775
 Gray-faced Buzzard,Butastur indicus,1,"4033, Bay PH-Laguna 14.14341, 121.25692",14.143405,121.256917,2025-01-18,15:59:00,27,0.17
 Cinnamon Bittern,Botaurus cinnamomeus,1,Secret Lagoon,14.193205,121.275135,2024-10-18,6:14:00,78,0.278
@@ -1614,7 +1614,7 @@ swift sp.,Apodidae sp.,X,"International Rice Research Institute, Los Baños ( Ac
 Gray-rumped Swiftlet,Collocalia marginata,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-04,8:16:00,219,1.248
 Scale-feathered Malkoha,Dasylophus cumingi,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-08-18,6:58:00,115,2.92
 Brown Shrike,Lanius cristatus,1,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-05-05,6:37:00,152,2
-Flaming Sunbird,Aethopyga flagrans,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
+Brown-breasted Kingfisher,Halcyon gularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-09-17,15:00:00,105,1
 Rock Pigeon,Columba livia,1,UP Los Baños--Molawin Creek,14.1640716,121.2410724,2025-05-17,15:56:00,285,1.954
 Red Junglefowl,Gallus gallus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-03-23,6:20:00,210,
 Paddyfield Pipit,Anthus rufulus,1,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-09,16:33:00,118,1.14
@@ -1636,7 +1636,7 @@ Great Egret,Ardea alba,1,"San Isidro River, Brgy. San Roque, San Pedro",14.37065
 Yellow-wattled Bulbul,Microtarsus urostictus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-15,15:43:00,90,2
 Philippine Bulbul,Hypsipetes philippinus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-07,6:30:00,8,0.85
 Brown Shrike,Lanius cristatus,2,UP Los Baños--DTRI,14.1568936,121.2461495,2024-03-31,6:49:00,57,1.212
-Philippine Bulbul,Hypsipetes philippinus,2,"10682 Elon-elon, Los Baños, Calabarzon, PH (14.17, 121.246)",14.1696325,121.2457187,2026-01-28,19:28:00,,
+Philippine Jungle Crow,Corvus philippinus,3,"UPLB College of Arts and Sciences, Los Banos PH-Laguna 14.16540, 121.24197",14.165401,121.241967,2023-01-18,8:44:00,32,0.236
 Eastern Yellow Wagtail,Motacilla tschutschensis,10,UP Los Baños--Campus,14.16739,121.2432396,2024-04-01,16:03:00,138,7.893
 Guaiabero,Bolbopsittacus lunulatus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
 Gray-rumped Swiftlet,Collocalia marginata,4,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2026-01-30,6:23:00,39,0.681
@@ -1648,9 +1648,9 @@ Yellow-vented Bulbul,Pycnonotus goiavier,1,"IRRI Staff Housing, Los Baños",14.1
 Philippine Jungle Crow,Corvus philippinus,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-13,7:16:00,94,1.37
 Yellow-vented Bulbul,Pycnonotus goiavier,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-04-13,6:45:00,165,3
 Lowland White-eye,Zosterops meyeni,16,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2025-11-02,16:28:00,38,0.733
-Plain Bush-hen,Amaurornis olivacea,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
+White-browed Shama,Copsychus luzoniensis,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-07-27,7:27:00,201,1.54
 Striated Grassbird,Megalurus palustris,X,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2025-08-01,7:00:00,50,0.9
-Pechora Pipit,Anthus gustavi,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-14,,,
+Philippine Hanging-Parrot,Loriculus philippensis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-03-22,16:00:00,120,
 Red-crested Malkoha,Dasylophus superciliosus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-13,9:04:00,26,0.552
 White-browed Crake,Poliolimnas cinereus,5,UP Los Baños--Pili Drive,14.1606967,121.2453667,2025-07-06,6:00:00,121,2.639
 Collared Kingfisher,Todiramphus chloris,1,Kota paradiso mabitac Laguna,14.449384,121.38266,2024-07-11,7:00:00,122,2.382
@@ -1665,7 +1665,7 @@ Philippine Bulbul,Hypsipetes philippinus,5,Mt. Makiling Forest Reserve--Trail,14
 Red Collared-Dove,Streptopelia tranquebarica,2,"Pandan Place, Biñan City PH-Laguna 14.28787, 121.05899",14.287867,121.058992,2024-12-30,15:34:00,124,2.849
 Brahminy Kite,Haliastur indus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-12,5:58:00,142,3.04
 Common Kingfisher,Alcedo atthis,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-03-08,14:46:00,55,1.196
-Brown Shrike,Lanius cristatus,1,Word Of Life Bible Institute - Philippines,14.10616,121.2728932,2023-04-03,16:55:00,,
+Brown-breasted Kingfisher,Halcyon gularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-22,6:16:00,112,1.371
 Great Egret,Ardea alba,15,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-06-04,6:00:00,60,0.4
 Black-naped Oriole,Oriolus chinensis,4,Montecito Bike and Dirt Road Trail - Towards Viewing Deck,14.1968917,121.0697841,2026-07-08,7:00:00,20,0.5
 Black-naped Oriole,Oriolus chinensis,3,"Conservation Avenue, Calamba, Calabarzon, PH (14.21, 121.",14.2100645,121.0703838,2024-10-15,15:24:00,20,
@@ -1674,7 +1674,7 @@ Barred Rail,Gallirallus torquatus,1,"San Isidro River, Brgy. San Roque, San Pedr
 Blue-tailed Bee-eater,Merops philippinus,3,"SLEX TR4, San Pablo City, Calabarzon, PH (13.999, 121.317)",13.9994965,121.3166882,2026-08-15,17:17:00,72,6.18
 Philippine Jungle Crow,Corvus philippinus,2,UP Los Baños--Campus,14.16739,121.2432396,2024-12-25,7:10:00,210,10
 wagtail sp.,Motacilla sp.,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-21,5:40:00,110,0.35
-Scaly-breasted Munia,Lonchura punctulata,6,Santa Rosa,14.2385505,121.0595743,2024-07-05,13:30:00,,
+Eurasian Moorhen,Gallinula chloropus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-03-02,6:15:00,165,0.8
 Chinese Sparrowhawk,Tachyspiza soloensis,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-01-12,6:30:00,260,8
 Blue-tailed Bee-eater,Merops philippinus,X,Tadlac Lake,14.1799494,121.2041388,2026-05-25,16:53:00,29,0.283
 Calidris sp.,Calidris sp.,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-03-27,5:54:00,105,0.15
@@ -1697,7 +1697,7 @@ Eurasian Tree Sparrow,Passer montanus,1,"Ilaya, San Pablo City",14.0742684,121.3
 Pied Triller,Lalage nigra,1,"Ilaya, San Pablo City",14.0742684,121.3262916,2024-01-01,7:05:00,20,
 Chestnut Munia,Lonchura atricapilla,6,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-09-29,6:10:00,130,2.2
 House Swift,Apus nipalensis,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-06-05,5:57:00,170,1.384
-Black Bittern,Botaurus flavicollis,1,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2026-05-24,7:26:00,,
+Gray-rumped Swiftlet,Collocalia marginata,X,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-26,5:40:00,60,1
 Luzon Flameback,Chrysocolaptes haematribon,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-12-07,6:30:00,120,4
 Wood Sandpiper,Tringa glareola,30,UP Los Baños-CTTE,14.1510938,121.258175,2025-04-03,16:00:00,127,4.207
 Philippine Hanging-Parrot,Loriculus philippensis,5,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-02-27,5:47:00,447,8.336
@@ -1737,8 +1737,8 @@ Chinese Sparrowhawk,Tachyspiza soloensis,1,Mt. Makiling Forest Reserve--Trail,14
 Yellow-vented Bulbul,Pycnonotus goiavier,2,"Waterton Lake, Calamba, Calabarzon,",14.2099401,121.0704848,2024-07-10,16:27:00,44,2.82
 Purple-throated Sunbird,Leptocoma sperata,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-07-03,7:05:00,63,0.669
 Eurasian Tree Sparrow,Passer montanus,2,"Conservation Avenue, Calamba,",14.2101144,121.0704989,2024-05-21,6:38:00,2,
-Eurasian Tree Sparrow,Passer montanus,X,Don Jose,14.2384696,121.0573304,2025-06-24,8:00:00,,
-Golden-bellied Gerygone,Gerygone sulphurea,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2026-07-03,8:05:00,,
+Collared Kingfisher,Todiramphus chloris,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-12-26,8:51:00,94,0.826
+Red-keeled Flowerpecker,Dicaeum australe,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-06-06,8:55:00,64,1.71
 Ashy Minivet,Pericrocotus divaricatus,12,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2023-02-27,6:14:00,110,2.092
 Red-keeled Flowerpecker,Dicaeum australe,12,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-12-22,9:12:00,102,1.037
 Whiskered Tern,Chlidonias hybrida,8,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-27,5:43:00,95,0.814
@@ -1746,7 +1746,7 @@ Blue-headed Fantail,Rhipidura cyaniceps,1,La view,14.549199,121.483996,2025-03-1
 Long-tailed Shrike,Lanius schach,2,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2026-01-31,6:30:00,45,0.48
 Spotted Kingfisher,Actenoides lindsayi,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-09-20,6:00:00,180,10
 White-eared Brown-Dove,Phapitreron leucotis,X,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-07-25,6:49:00,229,3.622
-Himalayan/Oriental Cuckoo,Cuculus saturatus/optatus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2023-04-30,6:11:00,120,0.49
+Red-crested Malkoha,Dasylophus superciliosus,1,Don Juakeen Lakeside Village,14.1043655,121.384589,2025-01-27,5:30:00,145,0.7
 Gray Wagtail,Motacilla cinerea,1,UP Los Baños--Pili Drive,14.1606967,121.2453667,2025-01-28,15:12:00,155,4.377
 Barn Swallow,Hirundo rustica,8,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-12-24,6:20:00,130,0.35
 Orange-bellied Flowerpecker,Dicaeum trigonostigma,1,Marilaque Highway--Santa Maria,14.53092,121.46475,2026-07-04,7:01:00,140,6.454
@@ -1754,7 +1754,7 @@ Flaming Sunbird,Aethopyga flagrans,1,Mt. Makiling Forest Reserve--TREES,14.15147
 Zebra Dove,Geopelia striata,1,"Los Baños, Calabarzon, PH (14.172, 121.264)",14.1721489,121.2641598,2024-05-28,10:55:00,16,0.17
 Scaly-breasted Munia,Lonchura punctulata,20,UP Los Baños--Campus,14.16739,121.2432396,2024-04-01,16:03:00,138,7.893
 Stripe-sided Rhabdornis,Rhabdornis mystacalis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-13,17:00:00,89,2.34
-Philippine Bulbul,Hypsipetes philippinus,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-02,5:56:00,121,3.074
+Philippine Cuckoo-Dove,Macropygia tenuirostris,1,"Maple Nature Camp, Infanta 4335, Real PH-Quezon (14.5386,121.4871)",14.538569,121.48709,2025-04-07,15:50:00,26,
 White-browed Crake,Poliolimnas cinereus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-03-25,15:40:00,120,0.537
 Clamorous Reed Warbler,Acrocephalus stentoreus,5,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-04-05,5:50:00,110,0.6
 Crested Myna,Acridotheres cristatellus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-02-20,6:08:00,110,
@@ -1797,7 +1797,7 @@ Chinese Sparrowhawk,Tachyspiza soloensis,1,"IRRI Staff Housing, Los Baños",14.1
 Asian Glossy Starling,Aplonis panayensis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-02-08,6:31:00,64,1.197
 Coppersmith Barbet,Psilopogon haemacephalus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-07,6:30:00,8,0.85
 Arctic Warbler,Phylloscopus borealis,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-11-12,12:59:00,265,4.614
-Brown Shrike,Lanius cristatus,2,Drive to Banos,14.3485466,121.4837964,2024-03-22,10:30:00,,
+Eurasian Tree Sparrow,Passer montanus,2,"Laguna Boulevard, Santa Rosa, Calabarzon, PH (14,248, 121,066)",14.2476565,121.0662872,2024-11-26,5:58:00,62,2.04
 Balicassiao,Dicrurus balicassius,4,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-07-07,6:16:00,149,4
 Red-crested Malkoha,Dasylophus superciliosus,1,"Mt. Makiling Forest Reserve, Los Baños",14.1347862,121.2017727,2023-02-01,6:51:00,284,0
 Guaiabero,Bolbopsittacus lunulatus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2025-04-26,11:00:00,180,4
@@ -1805,7 +1805,7 @@ Blue-tailed Bee-eater,Merops philippinus,4,UP Los Baños--DTRI,14.1568936,121.24
 Brown Shrike,Lanius cristatus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-03-09,7:08:00,95,0.8
 Black-crowned Night Heron,Nycticorax nycticorax,10,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2025-02-02,6:20:00,100,0.8
 Striated Grassbird,Megalurus palustris,5,Pansol Laguna Lake View,14.1836978,121.1917605,2026-04-29,6:26:00,100,2.055
-Mangrove Blue Flycatcher,Cyornis rufigastra,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-08-02,5:37:00,111,2.913
+Purple-throated Sunbird,Leptocoma sperata,1,UP Los Baños--Campus,14.16739,121.2432396,2026-06-07,7:00:00,180,5
 Zebra Dove,Geopelia striata,X,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-27,5:40:00,80,2
 Eurasian Moorhen,Gallinula chloropus,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-21,5:30:00,100,2
 Garden Sunbird,Cinnyris jugularis,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-04-17,6:30:00,120,2
@@ -1816,7 +1816,7 @@ Yellow-vented Bulbul,Pycnonotus goiavier,5,"Brgy. Jose Laurel Senior, Sta. Maria
 Eurasian Tree Sparrow,Passer montanus,X,"Mater Ecclesiae School, San Pedro, Laguna",14.3406823,121.0409941,2025-11-08,6:00:00,15,0.35
 Blue-tailed Bee-eater,Merops philippinus,X,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-06-02,5:15:00,180,4.5
 Plain Bush-hen,Amaurornis olivacea,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-06-05,7:11:00,130,0.98
-Great Egret,Ardea alba,1,Calauan,14.1454812,121.3148975,2024-01-01,9:35:00,,
+Purple Needletail,Hirundapus celebensis,2,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-11-27,9:41:00,89,1.93
 Asian Koel,Eudynamys scolopaceus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-04-19,10:11:00,55,0.513
 Ameline Swiftlet,Aerodramus amelis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-02-27,6:00:00,253,2
 swallow sp.,Hirundinidae sp.,15,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-29,5:42:00,90,0.35
@@ -1844,7 +1844,7 @@ Eurasian Tree Sparrow,Passer montanus,X,"San Isidro River, Brgy. San Roque, San 
 Medium Egret,Ardea intermedia,7,TR4 Tiaong Ricefields,13.9943991,121.31947,2026-08-29,15:00:00,60,
 Yellow Bittern,Botaurus sinensis,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-01-06,14:30:00,15,
 Coleto,Sarcops calvus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-12,6:25:00,133,3
-Eastern Cattle-Egret,Ardea coromanda,5,"Open field, SLEX, Don Jose, Santa Rosa, Laguna",14.2782747,121.0933288,2023-01-22,12:46:00,,
+Philippine Coucal,Centropus viridis,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-06-24,5:40:00,95,2
 Black-crowned Night Heron,Nycticorax nycticorax,17,"Sampaloc Lake, San Pablo City",14.0759237,121.3304075,2024-04-27,6:26:00,136,2.6
 Philippine Scops-Owl,Otus megalotis,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-02-07,17:07:00,116,2.157
 Red-keeled Flowerpecker,Dicaeum australe,1,Trail to Hulugan Falls,14.2135863,121.4792903,2026-05-21,13:05:00,40,1
@@ -1882,12 +1882,12 @@ Gray Wagtail,Motacilla cinerea,1,"Makiling Botanic Garden, Los Baños",14.1572,1
 Rock Pigeon,Columba livia,6,Sta. Elena Golf & Country Club (limited access),14.2400503,121.0903645,2024-09-15,6:45:00,165,4
 Yellow Bittern,Botaurus sinensis,6,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-24,5:45:00,76,0.267
 Wood Sandpiper,Tringa glareola,5,UP Los Baños-CTTE,14.1510938,121.258175,2025-09-20,8:38:00,26,0.431
-Brown-breasted Kingfisher,Halcyon gularis,1,"Rizal, Calabarzon, PH (14.074, 121.408)",14.0737321,121.4084842,2024-03-31,11:17:00,108,4.242
+Barn Swallow,Hirundo rustica,2,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2023-09-08,6:25:00,35,
 Collared Kingfisher,Todiramphus chloris,2,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-08-08,6:15:00,70,0.506
 Philippine Jungle Crow,Corvus philippinus,2,"Nuvali, Sta. Rosa",14.2194174,121.0651517,2024-07-18,16:28:00,34,0.5
-Eurasian Tree Sparrow,Passer montanus,13,"International Rice Research Institute, Los Baños ( Access Restricted)",14.1678792,121.2545547,2024-03-21,7:03:00,,1.684
+Ashy Minivet,Pericrocotus divaricatus,5,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-22,15:21:00,90,0.893
 Philippine Bulbul,Hypsipetes philippinus,2,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-06-25,6:02:00,308,7.343
-Chestnut Munia,Lonchura atricapilla,2,"12735 Road 1, Los Baños PH-Laguna 14.18230, 121.23762",14.182302,121.237623,2026-02-14,16:45:00,,
+Eurasian Moorhen,Gallinula chloropus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-08-31,6:23:00,60,0.1
 Philippine Magpie-Robin,Copsychus mindanensis,1,Don Juakeen Lakeside Village,14.1043655,121.384589,2025-08-06,7:13:00,37,
 Brown Shrike,Lanius cristatus,6,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-10-29,16:24:00,72,1.35
 Pied Bushchat,Saxicola caprata,2,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2024-03-15,5:40:00,80,3
@@ -1913,7 +1913,7 @@ Zebra Dove,Geopelia striata,X,Don Jose,14.2384696,121.0573304,2025-09-04,17:30:0
 Common Kingfisher,Alcedo atthis,1,UP Los Baños--Molawin Creek,14.1640716,121.2410724,2025-04-05,10:37:00,12,1.024
 Philippine Coucal,Centropus viridis,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-04-23,7:00:00,45,2
 Eurasian Tree Sparrow,Passer montanus,4,"Ilaya, San Pablo City",14.0742684,121.3262916,2025-06-08,6:05:00,45,
-Red-crested Malkoha,Dasylophus superciliosus,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2024-05-19,19:09:00,,
+Collared Kingfisher,Todiramphus chloris,1,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-10-15,16:52:00,24,1.45
 Lowland White-eye,Zosterops meyeni,4,"Biñan - Santa Rosa Access Road, Santa Rosa City PH-Calabarzon 14.31021, 121.09408",14.310214,121.094081,2026-08-30,6:22:00,95,0.095
 Red-crested Malkoha,Dasylophus superciliosus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-06-19,6:05:00,77,0.876
 Luzon Hornbill,Penelopides manillae,8,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-05-25,5:39:00,57,0.831
@@ -1923,17 +1923,17 @@ Pacific Swallow,Hirundo javanica,2,De La Salle University - Laguna campus,14.262
 Gray-throated Sunbird,Anthreptes griseigularis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-12,6:36:00,141,0.828
 Asian Koel,Eudynamys scolopaceus,X,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-03-22,6:21:00,91,1.216
 Gray-streaked Flycatcher,Muscicapa griseisticta,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-01-17,16:36:00,126,0.291
-Gray-backed Tailorbird,Orthotomus derbianus,4,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-04,5:50:00,112,2.01
+White-browed Crake,Poliolimnas cinereus,5,"IPB Rd. ricefields, Bgy. San Vicente, Los Baños",14.1598738,121.2596216,2024-07-28,5:46:00,49,1.24
 Philippine Bulbul,Hypsipetes philippinus,1,Bird,14.2101444,121.0703997,2024-08-10,18:53:00,10,
 Brown Shrike,Lanius cristatus,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2025-03-08,4:43:00,434,5
 Pacific Swallow,Hirundo javanica,X,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2023-07-03,5:40:00,80,2
 Barred Rail,Gallirallus torquatus,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-03-10,6:01:00,115,0.3
 Bicolored Flowerpecker,Dicaeum bicolor,2,La View,14.545141,121.488733,2025-03-10,14:40:00,150,1.609
-Chestnut Munia,Lonchura atricapilla,X,Word Of Life Bible Institute - Philippines,14.10616,121.2728932,2023-04-06,8:23:00,,
+Eurasian Tree Sparrow,Passer montanus,3,"Ilaya, San Pablo City",14.0742684,121.3262916,2023-09-13,5:50:00,25,
 Gray-rumped Swiftlet,Collocalia marginata,1,"Rain Garden Evozone, brgy. Don Jose, Santa Rosa",14.2346446,121.0597584,2025-08-07,16:10:00,17,0.366
 Black-naped Oriole,Oriolus chinensis,1,UP Los Baños--Campus,14.16739,121.2432396,2025-05-14,17:41:00,10,
 Red Collared-Dove,Streptopelia tranquebarica,30,"4033, Bay PH-Laguna 14.14341, 121.25692",14.143405,121.256917,2025-01-18,15:59:00,27,0.17
-White-breasted Woodswallow,Artamus leucorynchus,2,"42 National Highway, Pangil, Calabarzon, PH (14.408, 121.465)",14.4084224,121.4649091,2024-05-03,9:38:00,,
+Chinese Sparrowhawk,Tachyspiza soloensis,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-11-12,12:59:00,265,4.614
 Balicassiao,Dicrurus balicassius,5,"Jose D. Drilon, Jr, Los Baños PH-Laguna (14.1569,121.2297)",14.15689,121.229656,2025-10-26,6:30:00,120,1.609
 Barred Rail,Gallirallus torquatus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-05-14,5:29:00,54,0.63
 Lowland White-eye,Zosterops meyeni,X,Hallow Ridge Filipinas Golf (restricted access),14.3566573,121.0283089,2023-04-08,16:40:00,20,
@@ -1941,7 +1941,7 @@ Brown-breasted Kingfisher,Halcyon gularis,1,"Mount Makiling, Los Baños PH-Lagun
 Scaly-breasted Munia,Lonchura punctulata,3,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-01-21,6:36:00,95,0.3
 Gray-backed Tailorbird,Orthotomus derbianus,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2024-07-02,5:56:00,121,3.074
 Asian Koel,Eudynamys scolopaceus,X,"Kalibato Lake, San Pablo City",14.106263,121.376178,2025-05-06,15:54:00,56,
-Stripe-sided Rhabdornis,Rhabdornis mystacalis,12,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-03-14,,,
+Collared Kingfisher,Todiramphus chloris,1,UPLB Freedom Park,14.1623187,121.2413118,2024-01-07,7:13:00,119,1.401
 White-eared Brown-Dove,Phapitreron leucotis,1,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-09-18,15:40:00,30,0.34
 Oriental Pratincole,Glareola maldivarum,4,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-04-26,9:30:00,120,1
 Philippine Hanging-Parrot,Loriculus philippensis,3,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2026-04-09,6:11:00,90,1
@@ -1949,7 +1949,7 @@ Gray-backed Tailorbird,Orthotomus derbianus,1,"IRRI Staff Housing, Los Baños",1
 Luzon Hornbill,Penelopides manillae,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-27,5:41:00,126,3.13
 Rock Pigeon,Columba livia,35,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2023-01-15,9:25:00,15,
 Common Sandpiper,Actitis hypoleucos,1,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-04-12,5:50:00,140,0.35
-Javan Pond-Heron,Ardeola speciosa,1,Pagalangan,14.237596,121.336112,2023-03-25,13:00:00,,
+Gray-faced Buzzard,Butastur indicus,1,"SEARCA Residence Hotel, Los Baños",14.161323,121.239293,2025-03-07,17:23:00,47,0.05
 Balicassiao,Dicrurus balicassius,1,UP Los Baños--Campus,14.16739,121.2432396,2025-11-02,6:29:00,171,7.541
 Brown-breasted Kingfisher,Halcyon gularis,1,"Lawaan Sa Kalayaan, Lumban, Calabarzon, PH (14.309, 121.519)",14.3086811,121.5190189,2026-04-11,11:36:00,407,0.452
 Brown-breasted Kingfisher,Halcyon gularis,1,"Nuvali, Sta. Rosa",14.2194174,121.0651517,2023-08-07,17:13:00,17,1
@@ -1972,7 +1972,7 @@ Luzon Hornbill,Penelopides manillae,8,"Makiling Botanic Garden, Los Baños",14.1
 Pacific Swallow,Hirundo javanica,3,Verdana Mamplasan Central Park,14.2911528,121.0648741,2023-04-02,7:00:00,120,2
 Zitting Cisticola,Cisticola juncidis,2,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2025-11-19,6:12:00,60,1
 Luzon Hornbill,Penelopides manillae,3,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2023-10-02,6:22:00,233,2.5
-Gray-faced Buzzard,Butastur indicus,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-12,16:02:00,101,0.586
+Medium Egret,Ardea intermedia,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-03-06,6:03:00,100,0.4
 Guaiabero,Bolbopsittacus lunulatus,2,"IRRI Staff Housing, Los Baños",14.1611402,121.2334622,2025-04-05,7:10:00,160,2
 Whiskered Tern,Chlidonias hybrida,30,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-05-11,7:00:00,160,0.3
 Philippine Jungle Crow,Corvus philippinus,2,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2025-04-13,9:15:00,120,4
@@ -1985,16 +1985,16 @@ Coppersmith Barbet,Psilopogon haemacephalus,2,"IRRI Staff Housing, Los Baños",1
 Tawny Grassbird,Cincloramphus timoriensis,1,"Brgy. Jose Laurel Senior, Sta. Maria",14.546888,121.46262,2023-02-03,6:42:00,11,0.176
 Yellow-vented Bulbul,Pycnonotus goiavier,2,UP Los Baños--DTRI,14.1568936,121.2461495,2025-02-11,16:53:00,75,0.208
 Rock Pigeon,Columba livia,8,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2023-12-24,6:20:00,130,0.35
-Gray-rumped Swiftlet,Collocalia marginata,5,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-12,16:02:00,101,0.586
+Ashy Minivet,Pericrocotus divaricatus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2024-10-04,6:10:00,80,0.25
 White-breasted Woodswallow,Artamus leucorynchus,5,UP Los Baños-CTTE,14.1510938,121.258175,2024-11-07,2:00:00,90,3
 Eastern Cattle-Egret,Ardea coromanda,1,"Jose D. Drilon, Jr, Los Baños PH-Laguna (14.1569,121.2297)",14.15689,121.229656,2025-10-26,6:30:00,120,1.609
 Red-crested Malkoha,Dasylophus superciliosus,1,Mt. Makiling Forest Reserve--TREES,14.1514736,121.2332726,2024-02-23,16:55:00,73,2.934
 Philippine Jungle Crow,Corvus philippinus,5,"B14 L41 Millerton St, Calamba, Calabarzon, PH (14.207, 121.072)",14.2068517,121.0718183,2025-03-07,17:00:00,120,3
-Eurasian Tree Sparrow,Passer montanus,5,"San Pedro lakeside, Brgy. San Roque",14.3668293,121.0649501,2024-03-31,8:27:00,,
+Chestnut Munia,Lonchura atricapilla,8,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-03-12,5:48:00,60,
 Crested Myna,Acridotheres cristatellus,4,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-05-08,5:47:00,175,0.213
 Philippine Jungle Crow,Corvus philippinus,2,UP Los Baños--Pili Drive,14.1606967,121.2453667,2024-04-27,6:32:00,72,2.68
 Gray-streaked Flycatcher,Muscicapa griseisticta,1,"Lake Kalibato, San Pablo City, Calabarzon, PH (14.108, 121.374)",14.1077165,121.3741307,2025-04-13,5:43:00,75,0.61
-Red-keeled Flowerpecker,Dicaeum australe,1,"Makiling Botanic Garden, Los Baños",14.1572,121.2341,2026-03-13,9:04:00,26,0.552
+Crested Myna,Acridotheres cristatellus,2,"San Isidro River, Brgy. San Roque, San Pedro",14.3706527,121.0712489,2026-06-19,6:02:00,73,0.386
 White-eared Brown-Dove,Phapitreron leucotis,1,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-29,7:20:00,300,6
 Luzon Hornbill,Penelopides manillae,2,UP Los Baños--Campus,14.16739,121.2432396,2024-03-22,16:00:00,120,0.644
 Rufous-crowned Bee-eater,Merops americanus,3,Mt. Makiling Forest Reserve--Trail,14.1374912,121.2211704,2026-03-12,6:48:00,290,7.675
