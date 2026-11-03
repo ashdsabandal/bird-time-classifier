@@ -1,6 +1,6 @@
 # Serves as the main entry point to load data, train the three models, evaluate their performance, and compare results.
 
-from src import utils, knn
+from src import utils, knn, decision_tree
 
 filename = "data/dataset.csv"
 
@@ -26,3 +26,15 @@ prediction = knn.predict(k,p,knn_train, bird)
 print(f"\n Species: {test_data[0]['species']}")
 print(f"Listed Classification: {bird[-1]}")
 print(f"Calculated Classification: {prediction}")
+
+# Decision Tree (CART)
+dt_train = decision_tree.format_rows(training_data)
+dt_test = decision_tree.format_rows(test_data)
+
+tree = decision_tree.build_tree(dt_train, max_depth=5, min_size=10)
+dt_bird = dt_test[0]
+dt_prediction = decision_tree.predict(tree, dt_bird)
+
+print(f"\n Species: {test_data[0]['species']}")
+print(f"Listed Classification: {dt_bird[-1]}")
+print(f"Calculated Classification: {dt_prediction}")
