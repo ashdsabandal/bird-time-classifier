@@ -1,6 +1,6 @@
 # Loads data from CSV, handles missing values, feature scaling/encoding, and partitions data into train/test splits.
 
-import math
+import random
 import csv
 from datetime import datetime
 
@@ -44,19 +44,40 @@ def readFile(filename):
         "classification": time_sorter(hour)
       })
 
+  #shuffles the order para hindi arragned by date yung dataset natin
+  random.seed(67)
+  random.shuffle(rows)
+
   return rows
 
-def split_data(bird_rows, split): 
-  return bird_rows[:split], bird_rows[split:]
+def splitter(rows, split):
+  groups = {}
+
+  for r in rows:
+    key = (r["latitude"], r["longitude"], r["month"], r["day"], r["duration"])
+    if key in groups:
+      groups[key].append(r)
+    else:
+      groups[key] = [r]
+
+  train, test = [], []
+  for key in groups:
+    if len(train) < split:
+      train.extend(groups[key])
+    else:
+      test.extend(groups[key])
+
+  return train, test
 
 # FOR DATA SCALING TO MAKE SURE THEY'RE BALANCED 
+# https://towardsdatascience.com/scaling-numerical-data-explained-a-visual-guide-with-code-examples-for-beginners-11676cdb45cb/
 #scaling data 
-def scale_row(r, min, max): 
+def scale_row(r, mins, maxs): 
   scaled_row = []
 
-  for i in range(len(min)): 
-    if min[i] != max[i]: 
-      scaled_row.append((r[i] - min[i])/ (max[i] - min[i]))
+  for i in range(len(mins)): 
+    if mins[i] != maxs[i]: 
+      scaled_row.append((r[i] - mins[i])/ (maxs[i] - mins[i]))
     else: 
       scaled_row.append(0.0)
 
@@ -66,10 +87,10 @@ def scale_row(r, min, max):
 
 def scale_features(train, test): 
   n = len(train[0]) - 1 #remove si "afternoon", "morning", "evening"
-  min = [min(row[feature] for row in train) for feature in range(n)]
-  max = [max(row[feature] for row in train) for feature in range(n)]
+  mins = [min(row[feature] for row in train) for feature in range(n)]
+  maxs = [max(row[feature] for row in train) for feature in range(n)]
 
-  scale_train = [scale_row(r) for r in train]
-  scale_test = [scale_row(r) for r in test]
+  scale_train = [scale_row(r, mins, maxs) for r in train]
+  scale_test = [scale_row(r, mins, maxs) for r in test]
 
   return scale_train, scale_test
