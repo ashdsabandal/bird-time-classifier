@@ -8,7 +8,8 @@ bird_rows = utils.readFile(filename)
 training_data, test_data = utils.splitter(bird_rows, split = 1400)
 
 # KNN 
-
+  # FOR JOEY AND ASH: BAKA NEED NYO RIN GAWIN TONG STUFF NA TO KASI 
+  # FOR FORMATTING SYA , ESPECIALLY SI SCALE FEATURES 
 knn_train = knn.month_to_float(training_data)
 knn_test = knn.month_to_float(test_data)
 
