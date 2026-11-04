@@ -90,6 +90,8 @@ def scale_features(train, test):
   mins = [min(row[feature] for row in train) for feature in range(n)]
   maxs = [max(row[feature] for row in train) for feature in range(n)]
 
+  print(mins)
+  print(maxs)
   scale_train = [scale_row(r, mins, maxs) for r in train]
   scale_test = [scale_row(r, mins, maxs) for r in test]
 
