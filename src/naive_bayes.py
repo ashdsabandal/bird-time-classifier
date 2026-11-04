@@ -60,31 +60,42 @@ def make_features(bird_rows, ranges):
 def generate_bob(train_data): 
   feats =  len(train_data[0]) - 1
   bob = {} #hehe bag of birds
+  # holds value of each bird for each class like {"morning": 234, "afternoon": 232, "night": 123}
   fcount = {}
 
+  # ito yung vocabulary in bag of words setup
   unique_value = [set() for value in range(feats)]
 
+  # for every bird in the training data
   for bird in train_data: 
+    # get its label
     label = bird[-1]
 
+    # if the label not in the bag of birds {"morning", "afternoon", "evening"}
     if label not in bob: 
+      #create an entry in the dictionary with the label, containing a list of n(feat) dictionaries
       bob[label] = [{} for value in range(feats)]
       fcount[label] = 0 
-
+    # just increment the label appeareance count
     fcount[label] += 1
 
+    # for every feature we are monitoring (btw feature : latitude, longitude, ... )
     for i in range(feats):
+      # get yung value nung feature
       value = bird[i]
+      # then in bag of birds, under label, under the feature (represented by i), equate value = to the existing value (if not theree then 0) + 1
       bob[label][i][value] = bob[label][i].get(value, 0) + 1
+      #add that value to unique value set for this specific feature (i)
       unique_value[i].add(value)
 
+  # list containing counts for each unique value for each feature
   voc_count = [len(s) for s in unique_value]
 
   return bob, fcount, voc_count
 
 def calc_bird_category(given_bird, bob, total, voc_count, k): 
   real = 1.0
-
+  # formula
   for i in range(len(voc_count)): 
     count = bob[i].get(given_bird[i], 0)
     real *= (count + k) / (total + k * voc_count[i])
