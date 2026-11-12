@@ -28,7 +28,7 @@ def classify_duration(bird_rows):
 def get_date_fraction(month, day): 
   return date(2000, month, day).timetuple().tm_yday / 366
 
-def get_datebin(month, day, bins=12): # for 12 months
+def get_datebin(month, day, bins=4): # for 12 months
   frac = get_date_fraction(month, day)
   return min(int(frac*bins), bins - 1)
 
