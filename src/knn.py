@@ -21,18 +21,27 @@ def month_to_float(bird_rows):
 
   return features
 
-def compute_minowski(given, bird, p): 
-  total = 0 
+def compute_minowski(given, bird, p, weights=None): 
+  if weights is None:
+    # Feature weights: species (lowered penalty), latitude, longitude, date_fraction, duration (elevated)
+    weights = (0.1, 1.0, 1.0, 1.0, 2.5)
+  total = 0.0 
 
   for i, (x, y) in enumerate(zip(given[0:-1], bird[0:-1])): 
+    w = weights[i] if i < len(weights) else 1.0
     if isinstance(x, str):
       diff = 0.0 if x == y else 1.0
     elif i == 3: 
-      d = abs(x-y)
+      d = abs(x - y)
       diff = min(d, 1.0 - d)
     else:
-      diff = abs(x-y)
-    total += pow(diff, p)
+      diff = abs(x - y)
+
+    scaled_diff = diff * w
+    if p == 2:
+      total += scaled_diff * scaled_diff
+    else:
+      total += pow(scaled_diff, p)
 
   return pow(total, 1/p)
 
@@ -54,11 +63,10 @@ def predict(k, p, train_data, given_bird):
     print(f"{rank}  {distance}  {label}")
     rank += 1
 
+  # Distance-weighted voting reduces bias from majority class ties
   for distance, label in neighbors[0:k]: 
-    if label in sorted_time: 
-      sorted_time[label] += 1
-    else: 
-      sorted_time[label] = 1
+    weight = 1.0 / (distance + 0.001)
+    sorted_time[label] = sorted_time.get(label, 0.0) + weight
 
   return max(sorted_time, key=sorted_time.get)
 
