@@ -11,24 +11,24 @@ from datetime import date
 # classification = classification
 
 def get_ranges(bird_rows): 
-  return( classify_coords(bird_rows, "latitude"), classify_coords(bird_rows, "longitude"), classify_duration(bird_rows))
+  return (classify_coords(bird_rows, "latitude", bins=8), classify_coords(bird_rows, "longitude", bins=8), classify_duration(bird_rows, bins=20))
 
-def get_splitter(values, bins= 4): 
+def get_splitter(values, bins=4): 
   s = sorted(values)
-  return [s[len(s) * i // bins] for i in range(1,bins)]
+  return [s[len(s) * i // bins] for i in range(1, bins)]
 
-def classify_coords(bird_rows, coordtype):
+def classify_coords(bird_rows, coordtype, bins=8):
   coords = [row[coordtype] for row in bird_rows]
-  return get_splitter(coords)
+  return get_splitter(coords, bins)
 
-def classify_duration(bird_rows): 
+def classify_duration(bird_rows, bins=20): 
   durations = [row["duration"] for row in bird_rows]
-  return get_splitter(durations)
+  return get_splitter(durations, bins)
 
 def get_date_fraction(month, day): 
   return date(2000, month, day).timetuple().tm_yday / 366
 
-def get_datebin(month, day, bins=4): # for 12 months
+def get_datebin(month, day, bins=12): # for 12 months (monthly granularity)
   frac = get_date_fraction(month, day)
   return min(int(frac*bins), bins - 1)
 
