@@ -47,6 +47,7 @@ def make_features(bird_rows, ranges):
 
   for row in bird_rows: 
     features.append([
+      row["species"],
       get_class(row["latitude"], max_lat, min_lat), 
       get_class(row["longitude"], max_long, min_long), 
       float(row["month"]), 
@@ -109,7 +110,7 @@ def predict(k_val, bob, fcount, voc_count, given_bird):
   p_bird = 0.0
 
   for label in fcount: 
-    p_class[label] = fcount[label] / total_birds
+    p_class[label] = 1.0 / len(fcount)
     p_bird_class[label] = calc_bird_category(given_bird, bob[label], fcount[label], voc_count, k_val)
     p_bird += p_bird_class[label] * p_class[label]
 
