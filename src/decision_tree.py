@@ -48,9 +48,12 @@ def gini_index(groups, classes):
         if size == 0:
             continue
         score = 0.0
-        labels = [row[-1] for row in group]
+        counts = {}
+        for row in group:
+            l = row[-1]
+            counts[l] = counts.get(l, 0) + 1
         for class_val in classes:
-            p = labels.count(class_val) / size
+            p = counts.get(class_val, 0) / size
             score += p * p
         gini += (1.0 - score) * (size / n_instances)
 
