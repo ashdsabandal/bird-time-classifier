@@ -14,7 +14,7 @@ with contextlib.redirect_stdout(io.StringIO()):
         knn.month_to_float(test_data), 
         skip=[3]
     )
-k = 10
+k = 25
 p = 2
 
 # 2. Naive Bayes setup
@@ -27,7 +27,8 @@ k_val = 1
 # 3. Decision Tree (CART) setup
 dt_train = decision_tree.format_rows(training_data)
 dt_test = decision_tree.format_rows(test_data)
-tree = decision_tree.build_tree(dt_train, max_depth=5, min_size=10)
+dt_depth = 5
+tree = decision_tree.build_tree(dt_train, max_depth=dt_depth, min_size=10)
 
 
 def evaluate(n_samples, title, show_table=False):
