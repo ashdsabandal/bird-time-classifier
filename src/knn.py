@@ -7,6 +7,7 @@ def month_to_float(bird_rows):
 
   for r in bird_rows: 
     features.append([
+      r["species"],
       r["latitude"], 
       r["longitude"], 
       float(r["month"]), 
@@ -21,7 +22,11 @@ def compute_minowski(given, bird, p):
   total = 0 
 
   for x, y in zip(given[0:-1], bird[0:-1]): 
-    total += pow(abs(x-y), p)
+    if isinstance(x, str):
+      diff = 0.0 if x == y else 1.0
+    else:
+      diff = abs(x-y)
+    total += pow(diff, p)
 
   return pow(total, 1/p)
 
