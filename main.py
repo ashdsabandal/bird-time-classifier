@@ -5,7 +5,7 @@ from src import utils, knn, naive_bayes, decision_tree
 filename = "data/dataset.csv"
 
 bird_rows = utils.readFile(filename)
-training_data, test_data = utils.splitter(bird_rows, split = 1400)
+training_data, test_data = utils.splitter(bird_rows, split = 4800)
 
 # KNN 
   # FOR JOEY AND ASH: BAKA NEED NYO RIN GAWIN TONG STUFF NA TO KASI 
@@ -15,7 +15,7 @@ print("\n KNN")
 knn_train = knn.month_to_float(training_data)
 knn_test = knn.month_to_float(test_data)
 
-knn_train, knn_test = utils.scale_features(knn_train, knn_test)
+knn_train, knn_test = utils.scale_features(knn_train, knn_test, skip=[3])
 
 # k = int(input("Enter K: "))
 # p = float(input("Enter p: "))

@@ -1,7 +1,11 @@
 # Contains the implementation of the k-Nearest Neighbors (k-NN) classification algorithm.
 
-
+from datetime import date
 #makes it so values si month and day, tapos yung features and classification lang remove the bird names and other irrelevant data
+
+def get_date_fraction(month, day): 
+  return date(2000, month, day).timetuple().tm_yday / 366
+
 def month_to_float(bird_rows): 
   features = []
 
@@ -10,8 +14,7 @@ def month_to_float(bird_rows):
       r["species"],
       r["latitude"], 
       r["longitude"], 
-      float(r["month"]), 
-      float(r["day"]), 
+      get_date_fraction(r["month"], r["day"]),
       r["duration"], 
       r["classification"]
     ])
@@ -21,9 +24,12 @@ def month_to_float(bird_rows):
 def compute_minowski(given, bird, p): 
   total = 0 
 
-  for x, y in zip(given[0:-1], bird[0:-1]): 
+  for i, (x, y) in enumerate(zip(given[0:-1], bird[0:-1])): 
     if isinstance(x, str):
       diff = 0.0 if x == y else 1.0
+    elif i == 3: 
+      d = abs(x-y)
+      diff = min(d, 1.0 - d)
     else:
       diff = abs(x-y)
     total += pow(diff, p)
