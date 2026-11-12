@@ -1,5 +1,7 @@
 # Contains the implementation of the Naive Bayes classification algorithm.
 
+from datetime import date
+
 # naive bayes classifications 
 # latitude = 4 classification (max-min)/4  by range
 # longitude = 4 classification (max-min)/4 by range
@@ -11,48 +13,40 @@
 def get_ranges(bird_rows): 
   return( classify_coords(bird_rows, "latitude"), classify_coords(bird_rows, "longitude"), classify_duration(bird_rows))
 
+def get_splitter(values, bins= 4): 
+  s = sorted(values)
+  return [s[len(s) * i // bins] for i in range(1,bins)]
+
 def classify_coords(bird_rows, coordtype):
   coords = [row[coordtype] for row in bird_rows]
-  maximum, minimum = max(coords), min(coords)
-
-  return maximum, minimum
+  return get_splitter(coords)
 
 def classify_duration(bird_rows): 
   durations = [row["duration"] for row in bird_rows]
-  maximum, minimum = max(durations), min(durations)
+  return get_splitter(durations)
 
-  return maximum, minimum
+def get_date_fraction(month, day): 
+  return date(2000, month, day).timetuple().tm_yday / 366
 
-def get_class(coord, max, min): 
+def get_datebin(month, day, bins=12): # for 12 months
+  frac = get_date_fraction(month, day)
+  return min(int(frac*bins), bins - 1)
 
-  n = (max-min)/4
+def get_class(value, splitter): 
+  return sum(value >= c for c in splitter)
 
-  if coord < min+n: return 0
-  if min+n <= coord < min+2*n: return 1
-  if min+2*n <= coord < min+3*n: return 2
-  
-  return 3
-
-def get_day(day): 
-  if day < 8: return 0
-  if 8 <= day < 15: return 1 
-  if 15 <= day < 22: return 2
-
-  return 3
-  
 def make_features(bird_rows, ranges): 
   features = []
 
-  (max_lat, min_lat), (max_long, min_long), (max_dur, min_dur) = ranges
+  lat_split, long_split, dur_split = ranges
 
   for row in bird_rows: 
     features.append([
       row["species"],
-      get_class(row["latitude"], max_lat, min_lat), 
-      get_class(row["longitude"], max_long, min_long), 
-      float(row["month"]), 
-      get_day(row["day"]),
-      get_class(row["duration"], max_dur, min_dur), 
+      get_class(row["latitude"], lat_split), 
+      get_class(row["longitude"], long_split), 
+      get_datebin(row["month"], row["day"]),
+      get_class(row["duration"], dur_split), 
       row["classification"]
     ])
 
@@ -110,7 +104,7 @@ def predict(k_val, bob, fcount, voc_count, given_bird):
   p_bird = 0.0
 
   for label in fcount: 
-    p_class[label] = 1.0 / len(fcount)
+    p_class[label] = fcount[label] / total_birds
     p_bird_class[label] = calc_bird_category(given_bird, bob[label], fcount[label], voc_count, k_val)
     p_bird += p_bird_class[label] * p_class[label]
 
