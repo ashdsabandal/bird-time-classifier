@@ -10,8 +10,10 @@ from datetime import datetime
 
 
 def time_sorter(hour): 
-  if 4 <= hour < 12: 
-    return "Morning"
+  if 4 <= hour < 7: 
+    return "Early Morning"
+  if 7 <= hour < 12: 
+    return "Late Morning"
   if 12 <= hour < 17: 
     return "Afternoon"
 
