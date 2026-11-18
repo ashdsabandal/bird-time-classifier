@@ -24,9 +24,6 @@ Each figure box already has a file name. Save the chart with that exact name in
 
 | File name | Section |
 |---|---|
-| `class_distribution.png` | 02 Dataset |
-| `sightings_map.png` | 02 Dataset |
-| `pipeline.png` | 03 Methods (optional) |
 | `model_comparison.png` | 05 Results, overall |
 | `per_class_f1.png` | 05 Results, per class |
 | `prediction_distribution.png` | 05 Results, per class |
