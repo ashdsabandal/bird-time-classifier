@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>When Can You See It? · Bird Sighting Time Classification · CMSC 170</title>
+  <meta name="description" content="Comparing k-NN, Naive Bayes, and CART decision trees for predicting the time of day a bird can be sighted, using eBird data.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Song+Myung&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!--
+  ================================================================
+  HOW TO EDIT THIS PAGE  (full guide in docs/README.md)
+  ----------------------------------------------------------------
+  • Search for  EDIT:  to find every spot that needs filling in.
+  • Dashed boxes (<span class="todo">) are text still to be written.
+  • Table cells showing "—" (class="tbd") are blanks for numbers.
+    Replace the dash and delete class="tbd". Add class="best" to
+    highlight the winning value.
+  • FIGURES: save the chart in assets/figures/ with the file name
+    shown in its data-src, and it appears automatically.
+  • LINKS: the repository and slides URLs appear in two places,
+    the hero buttons and section 09. Search for  REPO_URL  and
+    SLIDES_URL  to replace both at once.
+  ================================================================
+-->
+
+<!-- ============ NAV ============ -->
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">CMSC 170</a>
+    <nav>
+      <a href="#problem">Problem</a>
+      <a href="#dataset">Dataset</a>
+      <a href="#methods">Methods</a>
+      <a href="#setup">Setup</a>
+      <a href="#results">Results</a>
+      <a href="#discussion">Discussion</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="#references">References</a>
+      <a href="#links">Links</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ TITLE & MEMBERS ============ -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">CMSC 170 · Introduction to Artificial Intelligence · <!-- EDIT: semester -->Semester, A.Y. 2026–2027</p>
+    <h1>When Can You See It?</h1>
+    <p class="lede">Predicting the time of day a bird can be sighted from where, when, and how long birders looked, comparing k-Nearest Neighbors, Naive Bayes, and CART decision trees on eBird observations.</p>
+
+    <!-- EDIT: group members -->
+    <ul class="members">
+      <li>Member Name</li>
+      <li>Member Name</li>
+      <li>Member Name</li>
+      <li>Member Name</li>
+    </ul>
+    <p class="affiliation"><!-- EDIT -->Group name · Institution</p>
+
+    <div class="hero-links">
+      <a class="pill-btn" href="REPO_URL" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        Code
+      </a>
+      <a class="pill-btn" href="SLIDES_URL" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M1 2h14v9H1V2zm1.5 1.5v6h11v-6h-11zM7.25 12h1.5v1.5H11V15H5v-1.5h2.25V12z"/></svg>
+        Slides
+      </a>
+      <a class="pill-btn" href="#dataset">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 1C4.13 1 1 2.12 1 3.5v9C1 13.88 4.13 15 8 15s7-1.12 7-2.5v-9C15 2.12 11.87 1 8 1zm0 1.5c3.25 0 5.5.86 5.5 1s-2.25 1-5.5 1-5.5-.86-5.5-1 2.25-1 5.5-1zM2.5 6.03C3.8 6.65 5.8 7 8 7s4.2-.35 5.5-.97V8c0 .14-2.25 1-5.5 1s-5.5-.86-5.5-1V6.03zm0 4C3.8 10.65 5.8 11 8 11s4.2-.35 5.5-.97v2.47c0 .14-2.25 1-5.5 1s-5.5-.86-5.5-1v-2.47z"/></svg>
+        Dataset
+      </a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<!-- ============ 01 PROBLEM STATEMENT & MOTIVATION ============ -->
+<section id="problem" class="section">
+  <div class="section-head">
+    <span class="section-num">01</span>
+    <h2>Problem Statement &amp; Motivation</h2>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <h3>Problem statement</h3>
+      <p>Birds keep schedules. Some species are most active at first light; others are easier to find in the afternoon or after dusk. Given a <strong>species</strong>, a <strong>location</strong>, a <strong>date</strong>, and how <strong>long</strong> an observer spent looking, we want to predict <strong>which part of the day that bird is likely to be seen</strong>.</p>
+      <p>We frame this as a four-class classification problem and compare three classic machine-learning methods, each implemented from scratch: k-Nearest Neighbors, Naive Bayes, and a CART decision tree.</p>
+    </div>
+    <div>
+      <h3>Motivation</h3>
+      <p>
+        <!-- EDIT: motivation -->
+        <span class="todo">Why this matters and who could use it. For example: helping birders plan when to go out for a target species, guiding survey schedules, or showing what community science data can and cannot tell us about bird activity.</span>
+      </p>
+    </div>
+  </div>
+
+  <h3 class="mt">Target classes</h3>
+  <p class="muted">Each sighting is labeled by the hour its checklist started.</p>
+  <div class="class-grid">
+    <div class="class-card">
+      <span class="class-time">04:00 – 06:59</span>
+      <h4>Early Morning</h4>
+    </div>
+    <div class="class-card">
+      <span class="class-time">07:00 – 11:59</span>
+      <h4>Late Morning</h4>
+    </div>
+    <div class="class-card">
+      <span class="class-time">12:00 – 16:59</span>
+      <h4>Afternoon</h4>
+    </div>
+    <div class="class-card">
+      <span class="class-time">17:00 – 03:59</span>
+      <h4>Night</h4>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 DATASET ============ -->
+<section id="dataset" class="section">
+  <div class="section-head">
+    <span class="section-num">02</span>
+    <h2>Dataset</h2>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <h3>Source</h3>
+      <p>Bird sightings were obtained from <a href="https://ebird.org" target="_blank" rel="noopener">eBird</a>, the Cornell Lab of Ornithology's community science database where birders submit checklists of the species they observed. Our sightings come from <strong>Laguna, Philippines</strong>, mostly around Los Baños, Mt. Makiling, San Pedro, San Pablo City and Santa Rosa.</p>
+      <p>To get the data we:</p>
+      <ol class="steps">
+        <li>Created an eBird account.</li>
+        <li>Requested sightings filtered by <strong>region: Laguna</strong> and <strong>time: January 2023 to October 2026</strong>.</li>
+      </ol>
+    </div>
+    <div>
+      <h3>Size</h3>
+      <p>Each row is one species reported on one checklist. The file is included in the repository as <code>data/dataset.csv</code>.</p>
+      <div class="stat-grid small">
+        <div class="stat"><span class="stat-value">6,000</span><span class="stat-label">sightings</span></div>
+        <div class="stat"><span class="stat-value">241</span><span class="stat-label">species</span></div>
+        <div class="stat"><span class="stat-value">6 → 1</span><span class="stat-label">features → target</span></div>
+        <div class="stat"><span class="stat-value">2023 – 2026</span><span class="stat-label">Jan 2023 to Aug 2026</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col mt">
+    <div>
+      <h3>Features and target</h3>
+      <table class="data-table compact">
+        <thead><tr><th>Name</th><th>Type</th><th>From eBird column</th></tr></thead>
+        <tbody>
+          <tr><td>Species</td><td>Categorical</td><td>COMMON NAME</td></tr>
+          <tr><td>Latitude</td><td>Numeric</td><td>LATITUDE</td></tr>
+          <tr><td>Longitude</td><td>Numeric</td><td>LONGITUDE</td></tr>
+          <tr><td>Month</td><td>Numeric</td><td>OBSERVATION DATE</td></tr>
+          <tr><td>Day</td><td>Numeric</td><td>OBSERVATION DATE</td></tr>
+          <tr><td>Duration (min)</td><td>Numeric</td><td>DURATION MINUTES</td></tr>
+          <tr class="row-target"><td>Time of day (target)</td><td>4 classes</td><td>TIME OBSERVATIONS STARTED</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>Class distribution</h3>
+      <table class="data-table compact">
+        <thead><tr><th>Class</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+        <tbody>
+          <tr><td>Early Morning</td><td class="num">3,017</td><td class="num">50.3%</td></tr>
+          <tr><td>Afternoon</td><td class="num">1,368</td><td class="num">22.8%</td></tr>
+          <tr><td>Late Morning</td><td class="num">1,268</td><td class="num">21.1%</td></tr>
+          <tr><td>Night</td><td class="num">347</td><td class="num">5.8%</td></tr>
+        </tbody>
+        <tfoot><tr><td>Total</td><td class="num">6,000</td><td class="num">100%</td></tr></tfoot>
+      </table>
+      <p class="note">The classes are imbalanced: half of all sightings are Early Morning and fewer than 6% are Night.</p>
+    </div>
+  </div>
+
+  <h3 class="mt">Preprocessing</h3>
+  <ol class="steps">
+    <li><strong>Column selection.</strong> Only species, latitude, longitude, observation date, start time and duration are kept. Scientific name, count, locality and distance are dropped.</li>
+    <li><strong>Missing values.</strong> Rows with no start time or no duration are removed.</li>
+    <li><strong>Date parsing.</strong> The observation date is split into month and day. The year is dropped so the models learn seasonal patterns, not specific years.</li>
+    <li><strong>Labeling.</strong> The start hour is mapped to one of the four classes above.</li>
+    <li><strong>Shuffling.</strong> Rows are shuffled with a fixed seed (67) so the split is not ordered by date and results are reproducible.</li>
+    <li><strong>Model-specific encoding.</strong> Each model then transforms the features differently (scaling, binning or raw values), as described in <a href="#methods">Methods</a>.</li>
+  </ol>
+</section>
+
+<!-- ============ 03 METHODS ============ -->
+<section id="methods" class="section">
+  <div class="section-head">
+    <span class="section-num">03</span>
+    <h2>Methods</h2>
+  </div>
+  <p>All three classifiers are written from scratch in Python using only the standard library. Shared loading, splitting and scaling code lives in <code>src/utils.py</code>.</p>
+
+  <div class="method-grid">
+    <article class="method-card">
+      <span class="method-tag">Instance-based</span>
+      <h3>k-Nearest Neighbors</h3>
+      <h5>How it works</h5>
+      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <h5>Our implementation <code>src/knn.py</code></h5>
+      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+    </article>
+
+    <article class="method-card">
+      <span class="method-tag">Probabilistic</span>
+      <h3>Naive Bayes</h3>
+      <h5>How it works</h5>
+      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <h5>Our implementation <code>src/naive_bayes.py</code></h5>
+      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+    </article>
+
+    <article class="method-card">
+      <span class="method-tag">Tree-based</span>
+      <h3>Decision Tree (CART)</h3>
+      <h5>How it works</h5>
+      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <h5>Our implementation <code>src/decision_tree.py</code></h5>
+      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 04 EXPERIMENTAL SETUP ============ -->
+<section id="setup" class="section">
+  <div class="section-head">
+    <span class="section-num">04</span>
+    <h2>Experimental Setup</h2>
+  </div>
+
+  <h3>Data split</h3>
+  <div class="two-col no-mt">
+    <div>
+      <p>Sightings from the same checklist share the same location, date and duration. We group rows by these values and assign <strong>whole groups</strong> to either training or test (<code>utils.splitter</code>), so one birding outing never appears on both sides. Groups are added to training until it reaches about 4,800 rows; the rest form the test set.</p>
+      <p><!-- EDIT: say how hyperparameters were chosen (e.g. separate validation split, cross-validation, or test set) --><span class="todo">How the hyperparameter values were chosen.</span></p>
+    </div>
+    <table class="data-table compact">
+      <thead><tr><th>Class</th><th class="num">Train</th><th class="num">Test</th></tr></thead>
+      <tbody>
+        <tr><td>Early Morning</td><td class="num">2,500</td><td class="num">517</td></tr>
+        <tr><td>Afternoon</td><td class="num">1,074</td><td class="num">294</td></tr>
+        <tr><td>Late Morning</td><td class="num">965</td><td class="num">303</td></tr>
+        <tr><td>Night</td><td class="num">262</td><td class="num">85</td></tr>
+      </tbody>
+      <tfoot><tr><td>Total</td><td class="num">4,801 (80%)</td><td class="num">1,199 (20%)</td></tr></tfoot>
+    </table>
+  </div>
+
+  <h3 class="mt">Evaluation metrics</h3>
+  <p>Because the classes are imbalanced, we report several metrics side by side. <!-- EDIT: keep only the metrics implemented in src/metrics.py --></p>
+  <div class="metric-grid">
+    <div class="metric-card">
+      <h4>Accuracy</h4>
+      <p class="formula">correct ÷ total</p>
+      <p>Overall hit rate. Easy to read, but it rewards always guessing the most common class.</p>
+    </div>
+    <div class="metric-card">
+      <h4>Precision</h4>
+      <p class="formula">TP ÷ (TP + FP)</p>
+      <p>Of the sightings predicted as a class, how many really were that class.</p>
+    </div>
+    <div class="metric-card">
+      <h4>Recall</h4>
+      <p class="formula">TP ÷ (TP + FN)</p>
+      <p>Of the sightings that truly belong to a class, how many the model found.</p>
+    </div>
+    <div class="metric-card">
+      <h4>F1-score</h4>
+      <p class="formula">2PR ÷ (P + R)</p>
+      <p>Balances precision and recall. <em>Macro</em> averages classes equally; <em>weighted</em> weights them by size.</p>
+    </div>
+    <div class="metric-card">
+      <h4>Confusion matrix</h4>
+      <p class="formula">actual × predicted</p>
+      <p>Shows exactly which classes get mixed up with which.</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <h4>Baseline</h4>
+    <p>A model that always answers <strong>"Early Morning"</strong> scores <strong>43.1% accuracy</strong> on the test set (517 of 1,199) but only <strong>15.1% macro F1</strong>, since it never finds the other three classes. We use it as the floor every method must beat.</p>
+  </div>
+
+  <h3 class="mt">Hyperparameters</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead><tr><th>Method</th><th>Hyperparameter</th><th>Values tried</th><th>Final value</th></tr></thead>
+      <tbody>
+        <!-- EDIT: values tried + confirm final values -->
+        <tr><td rowspan="2">k-NN</td><td>k (neighbors)</td><td class="tbd">—</td><td>10</td></tr>
+        <tr><td>p (Minkowski)</td><td class="tbd">—</td><td>2</td></tr>
+        <tr><td rowspan="1">Naive Bayes</td><td>k (Laplace smoothing)</td><td class="tbd">—</td><td>1</td></tr>
+        <tr><td rowspan="2">Decision Tree</td><td>max depth</td><td class="tbd">—</td><td>5</td></tr>
+        <tr><td>min size</td><td class="tbd">—</td><td>10</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">All experiments run on Python 3 with no third-party packages. Run <code>python test_accuracy.py</code> to reproduce the scores (see the repository README).</p>
+</section>
+
+<!-- ============ 05 RESULTS ============ -->
+<section id="results" class="section">
+  <div class="section-head">
+    <span class="section-num">05</span>
+    <h2>Results</h2>
+  </div>
+  <p>All scores are on the held-out test set of 1,199 sightings.</p>
+
+  <h3>Overall comparison</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <caption>Table 1. Overall scores of all methods on the test set.</caption>
+      <thead>
+        <tr>
+          <th>Method</th>
+          <th class="num">Accuracy</th>
+          <th class="num">Macro Precision</th>
+          <th class="num">Macro Recall</th>
+          <th class="num">Macro F1</th>
+          <th class="num">Weighted F1</th>
+          <th class="num">Runtime</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-baseline"><td>Baseline (always Early Morning)</td><td class="num">43.1%</td><td class="num">10.8%</td><td class="num">25.0%</td><td class="num">15.1%</td><td class="num">26.0%</td><td class="num">—</td></tr>
+        <tr><td>k-NN</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        <tr><td>Naive Bayes</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        <tr><td>Decision Tree (CART)</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure class="figure wide">
+    <div class="figure-slot" data-src="assets/figures/model_comparison.png"></div>
+    <figcaption><strong>Figure 1.</strong> All metrics for all three methods, side by side.</figcaption>
+  </figure>
+
+  <h3 class="mt">Per-class comparison</h3>
+  <div class="table-wrap">
+    <table class="data-table">
+      <caption>Table 2. F1-score per class.</caption>
+      <thead><tr><th>Class</th><th class="num">Support</th><th class="num">k-NN</th><th class="num">Naive Bayes</th><th class="num">Decision Tree</th></tr></thead>
+      <tbody>
+        <tr><td>Early Morning</td><td class="num">517</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        <tr><td>Late Morning</td><td class="num">303</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        <tr><td>Afternoon</td><td class="num">294</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        <tr><td>Night</td><td class="num">85</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="figure-row">
+    <figure class="figure">
+      <div class="figure-slot" data-src="assets/figures/per_class_f1.png"></div>
+      <figcaption><strong>Figure 2.</strong> Per-class F1 for each method.</figcaption>
+    </figure>
+    <figure class="figure">
+      <div class="figure-slot" data-src="assets/figures/prediction_distribution.png"></div>
+      <figcaption><strong>Figure 3.</strong> How often each method predicts each class, compared with the true counts.</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="mt">Does the metric change the ranking?</h3>
+  <div class="table-wrap">
+    <table class="data-table rank-table">
+      <caption>Table 3. Method ranking under each metric.</caption>
+      <thead><tr><th>Metric</th><th>1st</th><th>2nd</th><th>3rd</th></tr></thead>
+      <tbody>
+        <tr><td>Accuracy</td><td class="tbd">—</td><td class="tbd">—</td><td class="tbd">—</td></tr>
+        <tr><td>Macro F1</td><td class="tbd">—</td><td class="tbd">—</td><td class="tbd">—</td></tr>
+        <tr><td>Weighted F1</td><td class="tbd">—</td><td class="tbd">—</td><td class="tbd">—</td></tr>
+        <tr><td>Night recall</td><td class="tbd">—</td><td class="tbd">—</td><td class="tbd">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="mt">Detailed results by method</h3>
+  <div class="tabs" role="tablist">
+    <button class="tab active" role="tab" data-tab="knn">k-NN</button>
+    <button class="tab" role="tab" data-tab="nb">Naive Bayes</button>
+    <button class="tab" role="tab" data-tab="dt">Decision Tree</button>
+  </div>
+
+  <!-- ---- k-NN ---- -->
+  <div class="tab-panel active" id="tab-knn">
+    <div class="two-col no-mt">
+      <table class="data-table">
+        <caption>Table 4. k-NN per-class performance.</caption>
+        <thead><tr><th>Class</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">F1</th></tr></thead>
+        <tbody>
+          <tr><td>Early Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Late Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Afternoon</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Night</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        </tbody>
+        <tfoot><tr><td>Macro avg</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr></tfoot>
+      </table>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/knn_confusion_matrix.png"></div>
+        <figcaption><strong>Figure 4.</strong> k-NN confusion matrix.</figcaption>
+      </figure>
+    </div>
+    <div class="figure-row">
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/knn_k_vs_score.png"></div>
+        <figcaption><strong>Figure 5.</strong> Accuracy and macro F1 as <em>k</em> changes.</figcaption>
+      </figure>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/knn_p_vs_score.png"></div>
+        <figcaption><strong>Figure 6.</strong> Effect of the Minkowski parameter <em>p</em>.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- ---- Naive Bayes ---- -->
+  <div class="tab-panel" id="tab-nb">
+    <div class="two-col no-mt">
+      <table class="data-table">
+        <caption>Table 5. Naive Bayes per-class performance.</caption>
+        <thead><tr><th>Class</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">F1</th></tr></thead>
+        <tbody>
+          <tr><td>Early Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Late Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Afternoon</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Night</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        </tbody>
+        <tfoot><tr><td>Macro avg</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr></tfoot>
+      </table>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/nb_confusion_matrix.png"></div>
+        <figcaption><strong>Figure 7.</strong> Naive Bayes confusion matrix.</figcaption>
+      </figure>
+    </div>
+    <div class="figure-row">
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/nb_smoothing_vs_score.png"></div>
+        <figcaption><strong>Figure 8.</strong> Accuracy and macro F1 as the smoothing value <em>k</em> changes.</figcaption>
+      </figure>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/nb_class_probabilities.png"></div>
+        <figcaption><strong>Figure 9.</strong> Example posterior probabilities for a test sighting.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <!-- ---- Decision Tree ---- -->
+  <div class="tab-panel" id="tab-dt">
+    <div class="two-col no-mt">
+      <table class="data-table">
+        <caption>Table 6. Decision tree per-class performance.</caption>
+        <thead><tr><th>Class</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">F1</th></tr></thead>
+        <tbody>
+          <tr><td>Early Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Late Morning</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Afternoon</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+          <tr><td>Night</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr>
+        </tbody>
+        <tfoot><tr><td>Macro avg</td><td class="num tbd">—</td><td class="num tbd">—</td><td class="num tbd">—</td></tr></tfoot>
+      </table>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/dt_confusion_matrix.png"></div>
+        <figcaption><strong>Figure 10.</strong> Decision tree confusion matrix.</figcaption>
+      </figure>
+    </div>
+    <div class="figure-row">
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/dt_depth_vs_score.png"></div>
+        <figcaption><strong>Figure 11.</strong> Train vs. test score as maximum depth changes.</figcaption>
+      </figure>
+      <figure class="figure">
+        <div class="figure-slot" data-src="assets/figures/dt_tree.png"></div>
+        <figcaption><strong>Figure 12.</strong> Top levels of the learned tree.</figcaption>
+      </figure>
+    </div>
+    <details class="rules">
+      <summary>Learned decision rules</summary>
+      <!-- EDIT: paste the output of decision_tree.print_tree(tree, feature_names=[...]) -->
+      <pre>[paste print_tree output here]</pre>
+    </details>
+  </div>
+</section>
+
+<!-- ============ 06 DISCUSSION ============ -->
+<section id="discussion" class="section">
+  <div class="section-head">
+    <span class="section-num">06</span>
+    <h2>Discussion</h2>
+  </div>
+
+  <h3>Why the methods performed as they did</h3>
+  <div class="insight-grid">
+    <div class="insight">
+      <h4>k-NN</h4>
+      <p><!-- EDIT --><span class="todo">e.g. effect of distance on mixed features, neighbors dominated by the majority class, sensitivity to k and p.</span></p>
+    </div>
+    <div class="insight">
+      <h4>Naive Bayes</h4>
+      <p><!-- EDIT --><span class="todo">e.g. whether the independence assumption holds, what binning gains or loses, role of the class prior.</span></p>
+    </div>
+    <div class="insight">
+      <h4>Decision Tree</h4>
+      <p><!-- EDIT --><span class="todo">e.g. which features it split on first, what depth 5 can and cannot capture, which classes its leaves never predict.</span></p>
+    </div>
+  </div>
+
+  <h3 class="mt">Influence of the evaluation metrics</h3>
+  <p><!-- EDIT --><span class="todo">How the winner changes between accuracy and macro F1, and what that says about each method's bias toward Early Morning. Refer to Tables 1–3 and Figure 3.</span></p>
+
+  <div class="two-col">
+    <div>
+      <h3>Limitations</h3>
+      <ul class="plain-list">
+        <li><span class="todo">e.g. eBird records when people go birding, not only when birds are active, so the label partly reflects observer habits.</span></li>
+        <li><span class="todo">e.g. the Night class has only 85 test samples, so its scores are less stable.</span></li>
+        <li><span class="todo">e.g. a single train/test split; results may vary with a different seed.</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Possible improvements</h3>
+      <ul class="plain-list">
+        <li><span class="todo">e.g. class weighting or resampling to handle imbalance.</span></li>
+        <li><span class="todo">e.g. k-fold cross-validation for tuning.</span></li>
+        <li><span class="todo">e.g. new features such as weather, habitat, or effort distance.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 CONCLUSION ============ -->
+<section id="conclusion" class="section">
+  <div class="section-head">
+    <span class="section-num">07</span>
+    <h2>Conclusion</h2>
+  </div>
+  <p><!-- EDIT --><span class="todo">Summarize the problem, what was compared, and the main result in a short paragraph.</span></p>
+  <ol class="findings">
+    <li><span class="todo">Key finding 1</span></li>
+    <li><span class="todo">Key finding 2</span></li>
+    <li><span class="todo">Key finding 3</span></li>
+  </ol>
+  <div class="callout dark">
+    <h4>Bottom line</h4>
+    <p><!-- EDIT --><span class="todo">Which method you recommend for this task and why.</span></p>
+  </div>
+</section>
+
+<!-- ============ 08 REFERENCES ============ -->
+<section id="references" class="section">
+  <div class="section-head">
+    <span class="section-num">08</span>
+    <h2>References</h2>
+  </div>
+
+  <h3>Data and literature</h3>
+  <ol class="refs">
+    <li>eBird. <em>eBird: An online database of bird distribution and abundance.</em> Cornell Lab of Ornithology, Ithaca, New York. <a href="https://ebird.org" target="_blank" rel="noopener">https://ebird.org</a>. Accessed <!-- EDIT: date -->[date].</li>
+    <li>Brownlee, J. <em>How To Implement The Decision Tree Algorithm From Scratch In Python.</em> Machine Learning Mastery. <a href="https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/" target="_blank" rel="noopener">link</a></li>
+    <li><em>Scaling Numerical Data, Explained: A Visual Guide with Code Examples for Beginners.</em> Towards Data Science. <a href="https://towardsdatascience.com/scaling-numerical-data-explained-a-visual-guide-with-code-examples-for-beginners-11676cdb45cb/" target="_blank" rel="noopener">link</a></li>
+    <!-- EDIT: add lecture notes, textbooks, papers -->
+  </ol>
+
+  <h3 class="mt">Code and AI tool disclosure</h3>
+  <table class="data-table compact disclosure">
+    <thead><tr><th>Source / tool</th><th>What it was used for</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr><td>Brownlee CART tutorial [2]</td><td>Base structure of the decision tree (Gini, split search, recursive building), extended for categorical splits</td><td><code>src/decision_tree.py</code></td></tr>
+      <tr><td>Towards Data Science article [3]</td><td>Min-max scaling approach</td><td><code>src/utils.py</code></td></tr>
+      <tr><td>Claude (Anthropic)</td><td>Generated the project page template (layout, styling, placeholder sections) and the README / task log skeletons</td><td><code>docs/</code>, <code>README.md</code>, <code>TASK_LOG.md</code></td></tr>
+      <!-- EDIT: add every other AI tool or outside code you used, and what for -->
+      <tr><td class="tbd">—</td><td class="tbd">—</td><td class="tbd">—</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ 09 LINKS ============ -->
+<section id="links" class="section">
+  <div class="section-head">
+    <span class="section-num">09</span>
+    <h2>Repository &amp; Slides</h2>
+  </div>
+  <div class="link-grid">
+    <a class="link-card" href="REPO_URL" target="_blank" rel="noopener">
+      <span class="link-kind">GitHub repository</span>
+      <span class="link-title">Source code, dataset &amp; task log</span>
+      <span class="link-url"><!-- EDIT -->github.com/username/repo-name →</span>
+    </a>
+    <a class="link-card" href="SLIDES_URL" target="_blank" rel="noopener">
+      <span class="link-kind">Presentation</span>
+      <span class="link-title">Project slides</span>
+      <span class="link-url"><!-- EDIT -->Open slides →</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>CMSC 170 Project · <!-- EDIT: group name / semester -->Group name · Bird sighting data from eBird</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

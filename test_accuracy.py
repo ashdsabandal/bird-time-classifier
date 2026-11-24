@@ -5,15 +5,16 @@ from src import utils, knn, naive_bayes, decision_tree
 
 filename = "data/dataset.csv"
 bird_rows = utils.readFile(filename)
-training_data, test_data = utils.splitter(bird_rows, split=1400)
+training_data, test_data = utils.splitter(bird_rows, split=4800)
 
 # 1. k-NN setup
 with contextlib.redirect_stdout(io.StringIO()):
     knn_train, knn_test = utils.scale_features(
         knn.month_to_float(training_data),
-        knn.month_to_float(test_data)
+        knn.month_to_float(test_data), 
+        skip=[3]
     )
-k = 5
+k = 10
 p = 2
 
 # 2. Naive Bayes setup

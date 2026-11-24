@@ -78,7 +78,7 @@ def scale_row(r, mins, maxs):
   scaled_row = []
 
   for i in range(len(mins)): 
-    if isinstance(r[i], str):
+    if isinstance(r[i], str) or mins[i] is None:
       scaled_row.append(r[i])
     elif mins[i] != maxs[i]: 
       scaled_row.append((r[i] - mins[i])/ (maxs[i] - mins[i]))
@@ -89,10 +89,10 @@ def scale_row(r, mins, maxs):
 
   return scaled_row
 
-def scale_features(train, test): 
+def scale_features(train, test, skip=()): 
   n = len(train[0]) - 1 #remove si "afternoon", "morning", "evening"
-  mins = [None if isinstance(train[0][feature], str) else min(row[feature] for row in train) for feature in range(n)]
-  maxs = [None if isinstance(train[0][feature], str) else max(row[feature] for row in train) for feature in range(n)]
+  mins = [None if isinstance(train[0][feature], str) or feature in skip else min(row[feature] for row in train) for feature in range(n)]
+  maxs = [None if isinstance(train[0][feature], str) or feature in skip else max(row[feature] for row in train) for feature in range(n)]
 
   print(mins)
   print(maxs)
