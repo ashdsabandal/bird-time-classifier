@@ -212,27 +212,58 @@
       <span class="method-tag">Instance-based</span>
       <h3>k-Nearest Neighbors</h3>
       <h5>How it works</h5>
-      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <p>A non-parametric, lazy learner that stores the dataset without immediate training, classifying new inputs by proximity and majority voting (GeeksforGeeks, 2026).</p>
+      <ol class="steps">
+        <li><strong>Select <em>K</em>:</strong> Sets the number of nearest neighbors to inspect.</li>
+        <li><strong>Calculate Distance:</strong> Computes proximity (Euclidean, Manhattan, or Minkowski) between the target and all stored training points.</li>
+        <li><strong>Find Nearest Neighbors:</strong> Identifies the <em>k</em> data points with the smallest distances.</li>
+        <li><strong>Majority Voting:</strong> Assigns the class label most frequent among the <em>k</em> neighbors.</li>
+      </ol>
       <h5>Our implementation <code>src/knn.py</code></h5>
-      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+      <ol class="steps">
+        <li><strong>Encode &amp; Scale:</strong> Coordinates and duration are min-max scaled to [0, 1]. Date is converted to day-of-year fraction (<em>day_of_year / 366</em>).</li>
+        <li><strong>Minkowski with Wrap:</strong> Computes distance across all 4,801 training rows with <em>p = 2</em>. Categorical species incurs 0/1 penalty; date uses circular wrapping <code>min(|x-y|, 1-|x-y|)</code> so Dec 31 &amp; Jan 1 are adjacent.</li>
+        <li><strong>Sort &amp; Slice:</strong> Ranks all distances ascending and extracts the top <em>k = 10</em> nearest neighbors.</li>
+        <li><strong>Plurality Vote:</strong> Tallies label counts among the 10 neighbors; returns the majority time category.</li>
+      </ol>
     </article>
 
     <article class="method-card">
       <span class="method-tag">Probabilistic</span>
       <h3>Naive Bayes</h3>
       <h5>How it works</h5>
-      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <p>A probabilistic classifier based on Bayes' Theorem under the &ldquo;naive&rdquo; assumption of feature independence that each feature contributes without affecting others (GeeksforGeeks, 2026).</p>
+      <ol class="steps">
+        <li><strong>The Naive Assumption:</strong> Assumes features are conditionally independent given the class: <em>P(X|y) = &prod; P(x<sub>i</sub>|y)</em>.</li>
+        <li><strong>Bayes' Theorem:</strong> Combines class prior probabilities <em>P(y)</em> and likelihoods: <em>P(y|X) &prop; P(y) &prod; P(x<sub>i</sub>|y)</em>.</li>
+        <li><strong>Decision Rule:</strong> Chooses the class with the highest posterior probability: <em>&ycirc; = argmax P(y|X)</em>.</li>
+      </ol>
       <h5>Our implementation <code>src/naive_bayes.py</code></h5>
-      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+      <ol class="steps">
+        <li><strong>Quantile Discretization:</strong> Species is kept as raw categorical values. Continuous coordinates and duration are partitioned into 4 equal-frequency quartiles using training cutoffs; date is binned into 4 seasons.</li>
+        <li><strong>"Bag of Birds" Matrix:</strong> Scans training rows into nested count dictionaries <code>bob[class][feature][bin]</code> alongside class prior tallies.</li>
+        <li><strong>Smoothed Likelihoods:</strong> For a test sighting, calculates feature likelihoods using Laplace smoothing <code>(count + 1) / (total + 1 &times; V)</code> to eliminate zero counts.</li>
+        <li><strong>Normalized MAP Decision:</strong> Multiplies likelihoods by class priors, normalizes across all 4 target time classes, and returns the highest-probability class.</li>
+      </ol>
     </article>
 
     <article class="method-card">
       <span class="method-tag">Tree-based</span>
       <h3>Decision Tree (CART)</h3>
       <h5>How it works</h5>
-      <p><!-- EDIT --><span class="todo">How this method works.</span></p>
+      <p>A recursive algorithm that constructs a binary decision tree by finding the feature and threshold that produce the highest reduction in impurity at each step (GeeksforGeeks, 2025).</p>
+      <ol class="steps">
+        <li><strong>Evaluate Best Split:</strong> Tests features and candidate threshold values using Gini Impurity (<em>1 &minus; &sum; p<sub>i</sub><sup>2</sup></em>).</li>
+        <li><strong>Create Binary Child Nodes:</strong> Splits the data into two child nodes (left &le; threshold, right &gt; threshold) based on the optimal split.</li>
+        <li><strong>Recursive Splitting:</strong> Repeats recursively until reaching stopping criteria (such as maximum depth or minimum sample size).</li>
+      </ol>
       <h5>Our implementation <code>src/decision_tree.py</code></h5>
-      <p><!-- EDIT --><span class="todo">How we implemented it.</span></p>
+      <ol class="steps">
+        <li><strong>Exhaustive Split Evaluation:</strong> Tests every unique value of all features as candidate binary cuts (<code>==</code> for species, <code>&lt;</code> for numeric features).</li>
+        <li><strong>Weighted Gini Selection:</strong> Calculates sample-weighted Gini impurity across candidate left/right groups; selects the threshold with minimum Gini.</li>
+        <li><strong>Recursive Tree Construction:</strong> Recursively splits child nodes until reaching <code>max_depth = 5</code>, <code>min_size = 10</code>, or a pure node, forming leaf majority labels.</li>
+        <li><strong>Binary Rule Traversal:</strong> Traverses the resulting nested Python dictionary tree from root to leaf following threshold tests to return the predicted class.</li>
+      </ol>
     </article>
   </div>
 </section>
@@ -572,6 +603,9 @@
     <li>eBird. <em>eBird: An online database of bird distribution and abundance.</em> Cornell Lab of Ornithology, Ithaca, New York. <a href="https://ebird.org" target="_blank" rel="noopener">https://ebird.org</a>. Accessed <!-- EDIT: date -->[date].</li>
     <li>Brownlee, J. <em>How To Implement The Decision Tree Algorithm From Scratch In Python.</em> Machine Learning Mastery. <a href="https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/" target="_blank" rel="noopener">link</a></li>
     <li><em>Scaling Numerical Data, Explained: A Visual Guide with Code Examples for Beginners.</em> Towards Data Science. <a href="https://towardsdatascience.com/scaling-numerical-data-explained-a-visual-guide-with-code-examples-for-beginners-11676cdb45cb/" target="_blank" rel="noopener">link</a></li>
+    <li><em>K-Nearest Neighbor(KNN) Algorithm</em> Towards Data Science. <a href="https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/" target="_blank" rel="noopener">link</a></li>
+    <li><em>Naive Bayes Classifiers</em> Towards Data Science. <a href="https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/" target="_blank" rel="noopener">link</a></li>
+    <li><em>CART (Classification And Regression Tree) in Machine Learning</em> Towards Data Science. <a href="https://www.geeksforgeeks.org/machine-learning/cart-classification-and-regression-tree-in-machine-learning/" target="_blank" rel="noopener">link</a></li>
     <!-- EDIT: add lecture notes, textbooks, papers -->
   </ol>
 
