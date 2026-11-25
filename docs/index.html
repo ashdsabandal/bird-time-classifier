@@ -218,7 +218,7 @@
       <h5>Our implementation <code>src/knn.py</code></h5>
       <ol class="steps">
         <li><strong>Encode &amp; Scale:</strong> Coordinates and duration are min-max scaled to [0, 1]. Date is converted to day-of-year fraction (<em>day_of_year / 366</em>).</li>
-        <li><strong>Minkowski with Wrap:</strong> Computes distance across all 4,801 training rows with <em>p = 2</em>. Categorical species incurs 0/1 penalty; date uses circular wrapping <code>min(|x-y|, 1-|x-y|)</code> so Dec 31 &amp; Jan 1 are adjacent.</li>
+        <li><strong>Minkowski with Wrap:</strong> Computes distance across all training rows with <em>p = 2</em>. Categorical species incurs 0/1 penalty; date uses circular wrapping <code>min(|x-y|, 1-|x-y|)</code> so Dec 31 &amp; Jan 1 are adjacent.</li>
         <li><strong>Sort &amp; Slice:</strong> Ranks all distances ascending and extracts the top <em>k = 10</em> nearest neighbors.</li>
         <li><strong>Plurality Vote:</strong> Tallies label counts among the 10 neighbors; returns the majority time category.</li>
       </ol>
