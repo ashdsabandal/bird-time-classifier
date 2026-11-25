@@ -13,22 +13,7 @@
 </head>
 <body>
 
-<!--
-  ================================================================
-  HOW TO EDIT THIS PAGE  (full guide in docs/README.md)
-  ----------------------------------------------------------------
-  • Search for  EDIT:  to find every spot that needs filling in.
-  • Dashed boxes (<span class="todo">) are text still to be written.
-  • Table cells showing "—" (class="tbd") are blanks for numbers.
-    Replace the dash and delete class="tbd". Add class="best" to
-    highlight the winning value.
-  • FIGURES: save the chart in assets/figures/ with the file name
-    shown in its data-src, and it appears automatically.
-  • LINKS: the repository and slides URLs appear in two places,
-    the hero buttons and section 09. Search for  REPO_URL  and
-    SLIDES_URL  to replace both at once.
-  ================================================================
--->
+
 
 <!-- ============ NAV ============ -->
 <header class="site-nav">
@@ -60,7 +45,7 @@
       <li>Joella Elindo</li>
       <li>Kristina Doroja</li>
     </ul>
-    <p class="affiliation">Group Name</p>
+    <p class="affiliation">#cluck in</p>
 
     <div class="hero-links">
       <a class="pill-btn" href="https://github.com/ashdsabandal/bird-time-classifier" target="_blank" rel="noopener">
@@ -275,7 +260,6 @@
   <div class="two-col no-mt">
     <div>
       <p>Sightings from the same checklist share the same location, date and duration. We group rows by these values and assign <strong>whole groups</strong> to either training or test (<code>utils.splitter</code>), so one birding outing never appears on both sides. Groups are added to training until it reaches about 4,800 rows; the rest form the test set.</p>
-      <p><!-- EDIT: say how hyperparameters were chosen (e.g. separate validation split, cross-validation, or test set) --><span class="todo">How the hyperparameter values were chosen.</span></p>
     </div>
     <table class="data-table compact">
       <thead><tr><th>Class</th><th class="num">Train</th><th class="num">Test</th></tr></thead>
@@ -713,20 +697,21 @@
   <div class="insight-grid">
     <div class="insight">
       <h4>k-NN</h4>
-      <p><!-- EDIT --><span class="todo">e.g. effect of distance on mixed features, neighbors dominated by the majority class, sensitivity to k and p.</span></p>
+      <p>k-NN had the lowest accuracy (44.62%). Upon closer look, with the inclusion of species in the . However, species do not equate having similar behaviors. It also leaned heavily on predicting Early Morning, overestimating . It was also the slowest method (7.06s), due to every prediction being compared to all training sightings</p>
     </div>
     <div class="insight">
       <h4>Naive Bayes</h4>
-      <p><!-- EDIT --><span class="todo">e.g. whether the independence assumption holds, what binning gains or loses, role of the class prior.</span></p>
+      <p>Naive Bayes had the best accuracy (47.12%), macro precision (36.84%) and macro F1 (34.49%), and was the fastest (0.03s). This approach also predicted the Night class more often than the other methods, which is something the Decision Tree struggled with.</span></p>
     </div>
     <div class="insight">
       <h4>Decision Tree</h4>
-      <p><!-- EDIT --><span class="todo">e.g. which features it split on first, what depth 5 can and cannot capture, which classes its leaves never predict.</span></p>
+      <p>The decision tree followed close by with  47.04% on the accuracy and had the best macro recall (35.03%) and weighted F1 (44.24%). Most of its splits were based on location and duration, and notably the species of the bird only accounted for 1 of the 28 splits. Another thing is that it never predicted Night. 
+      </p>
     </div>
   </div>
 
   <h3 class="mt">Influence of the evaluation metrics</h3>
-  <p><!-- EDIT --><span class="todo">How the winner changes between accuracy and macro F1, and what that says about each method's bias toward Early Morning. Refer to Tables 1–3 and Figure 3.</span></p>
+  <p>As seen on Table 1, the results each  method returned for accuracy is barely better than the baseline in which it always sorted to Early Morning. Which makes observing the other metrics more important. When looking at the macro metrics, each method returned results that played around the 30-34% range while the baseline is 15.06%. This shows that the methods did show learning from the smaller classes.</p>
 
   <div class="two-col">
     <div>
@@ -734,7 +719,6 @@
       <ul class="plain-list">
         <li>The dataset does not fully suit the study's goal. eBird keeps track of when birdwatchers <i>see</i> the birds, which doesn't necessarily equate to when birds are actually active.</li>
         <li>Data set is heavily imabalnced. Early Morning sightings make up 50.3% of the data, while Night sightings make up only 5.8%</li>
-        <li><span class="todo">e.g. a single train/test split; results may vary with a different seed.</span></li>
       </ul>
     </div>
     <div>
@@ -756,9 +740,9 @@
   </div>
   <p>While our implementation of the methods can be improved upon, the biggest limitation lies in the data set itself, whose shortcomings are reflected in the results of the three methods.</p>
   <ol class="findings">
-    <li><span class="todo">Key finding 1</span></li>
-    <li><span class="todo">Key finding 2</span></li>
-    <li><span class="todo">Key finding 3</span></li>
+    <li>Naive Bayes performed best overall, with the highest accuracy (47.12%) and macro F1 (34.39%), while also being the fastest method (0.03 s).</li>
+    <li>The dataset is very limiting. Reconsider the usage of species as they barely predicts time of day, and Night sighting in the overall dataset is so rare that the decision tree never predicts it</li>
+    <li>Location and effort matter more than species.</li>
   </ol>
 </section>
 
@@ -808,7 +792,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>CMSC 170 Project - Group name - Bird sighting data from eBird</p>
+  <p>CMSC 170 Project - #cluck in - Bird sighting data from eBird</p>
 </footer>
 
 <script src="assets/js/main.js"></script>

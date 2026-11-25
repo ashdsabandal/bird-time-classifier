@@ -1,0 +1,26 @@
+claude prompt: 
+
+[image of figma reference]
+
+Hi! I'm tasked with creating a web page to be displayed in github pages with the following instructions: Project Page including the graphs, tables and comparisons of all methods (with the influence of the evaluation metrics applied)
+the graphs and tables are to be made by my groupmate, i just need a base page where we can input the details.
+for further context on the project: the dataset was obtained from ebird and they are bird sightings from january 2023 - october 2026, and we intend to find the time range a bird can be seen given the set of selected features using knn, naive bayes, and decision tree CART
+
+i aim to make the website colors: #f8f7f6, #032A23, font : lora , song myung
+
+The repository must contain:
+All source code, organized and commented
+A README.md with instructions for running your code and reproducing your results
+The dataset, or a link and download instructions if it is too large
+The task log of member contributions
+The project page must contain:
+Title and group members
+Problem statement and motivation
+Dataset description: source, size, features, target, and preprocessing steps
+Methods: a short explanation of how each method works and how you implemented it
+Experimental setup: data splits, metrics, and hyperparameters
+Results: tables and figures comparing all methods
+Discussion: why the methods performed as they did, limitations, and possible improvements
+Conclusion
+References, including any code or AI tool use you must disclose
+Link to the repository and the presentation slides
