@@ -35,6 +35,8 @@ and compare three classifiers implemented from scratch in Python.
 ├── docs/                 # Project page served by GitHub Pages (index.html, CSS, JS, figures)
 ├── TASK_LOG.md           # Log of member contributions
 └── README.md
+└── promptused.txt        # prompt used for webpage template generation
+
 ```
 
 ## Requirements
